@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.pyc
+annotation_errors.txt
+.venv/
+raw_posts.json

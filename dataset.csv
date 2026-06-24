@@ -1,0 +1,2028 @@
+text,label,notes
+"I analyzed James Harden's performance in every NBA city to see if there is a correlation between his box score and the city's average strip club rating. Everyone knows James Harden has a particular affinity for the Canadian ballet, aka strip clubs. After the Rocket's dismal performance in Miami last week, and the city's reputation for high quality tit-shacks, I became increasingly curious to see just how much James Harden's vice affects his game.  So here we are, I spent the better part of the week on this, hope y'all enjoy!
+
+**Hypothesis**: James Harden's box score declines in cities with high quality strip clubs
+
+**Test**: Analyze James Harden's performance in every NBA city and correlate with those cities' reputation for strip clubs to see if there is any discernible relationship.
+
+&amp;#x200B;
+
+**Methodology/Steps**:
+
+* First I extracted all of James Harden's game logs for the past 4 seasons from Basketball Reference, cleaned up the data a bit (a bunch), and appended it into a single worksheet.
+* Next, I filtered out all Home games and all games Harden was inactive or DNP. For the purpose of this analysis we did not look at home games.
+* **Poor Performances** were determined by variances in 6 stats: Points, FG%, 3PT%, FT%, Assists and Turnovers. For each of these stats I compared Harden's *overall* season average to the *city-specific* season average. I identified 2 categories of poor performances:
+
+1. Sub-Par - Harden performed WORSE than season average, and
+2. Very Sub-Par - Harden performed 20%+ WORSE than season average.
+
+* I analyzed his poor performances across each of the NBA’s 28 different cities (did not look at home games so no Houston, there are 2 teams in LA, and I distinguished between Brooklyn and NYC = 28 cities).
+* **City Strip Club Rating** was determined by the average google review rating for the first 10 strip clubs in each city based on the google search “\[CITY\] Strip Clubs” (e.g., “Detroit Strip clubs”). Yes, this did involve me making like 30+ searches for strip clubs on my cpu...
+* Finally, I put the City Strip Club Rating into the pivoted game log data, performed a regression analysis and visualized it into charts.
+
+&amp;#x200B;
+
+**Conclusion**:
+
+&gt;!I have proven, to a statistically significant degree, that James Harden’s game performance declines in cities with higher rated strip clubs. !&lt;
+
+&gt;!Correlation Coefficient - r - (between avg strip club rating and total # of sub-par games) = .4575!&lt;
+
+* &gt;!Given the nature of the subject matter, this would be considered a moderate-to-strong correlation. !&lt;
+
+&gt;!Coefficient of Determination - r2 - (between avg strip club rating and total # of sub-par games) = .21!&lt;
+
+* &gt;!This means that James Harden’s box score is 20% predictable based on the quality of a city’s strip clubs !&lt;
+
+&gt;!Other interesting facts: !&lt;
+
+* &gt;!Harden’s best performance comes in city with the worst strip clubs - Toronto!&lt;
+* &gt;!Harden’s worst performance comes in city with the best strip clubs - Miami!&lt;
+* &gt;!Salt Lake city has the 3rd-ranked strip clubs of all NBA cities lol!&lt;
+
+&amp;#x200B;
+
+[Link to all my work](https://docs.google.com/spreadsheets/d/1hwDoaHcXqncb_l24NrxLCWTxE5pLaeKlU8r1Jnp39GQ/edit?usp=sharing)
+
+The charts won’t upload perfectly to google docs so I have included [screenshots here](https://imgur.com/a/JEhHxkH)
+
+&amp;#x200B;
+
+e. haha well this bl**e**w up. Just wanted to take the opportunity to say how much I appreciate r/NBA for being the best fucking sub on this site (**d**espite y'all nephews calling my boy *hitler*), than**k**s to all my fellow redditors for t**h**e nice words and the ridiculous amount of gold.",analysis,
+"Memphis Grizzlies scorekeeper posting fraudulent numbers MEMPHIS GRIZZLIES SCOREKEEPER POSTING FRAUDULENT NUMBERS FOR DEFENSIVE PLAYER OF THE YEAR LEADER JAREN JACKSON JR. 
+
+I would like to bring to your attention the scorekeeper of the Memphis Grizzlies.  I was wondering how a solid defensive player can suddenly have some specific statistical categories that are completely off the charts.  I am referring to Jaren Jackson Jr., who, after having missed ~16 games to start the season due to off-season foot surgery immediately started having extreme outlier high steals + blocks statistics, leading the entire NBA in blocks per game by a wide margin.  In fewer minutes per game than other players Jaron Jackson repeatedly gets outlandish block numbers at home. 
+
+I decided to take a closer look at his games and IMMEDIATELY 1 thing became crystal clear.  At home in Memphis he has 66 blocks in 16 home games, averaging 4.13 blocks per game, versus just 35 in 16 road games, averaging 2.19 in nearly identical minutes- an 89% increase in Memphis.  In home games he has been credited with 22 steals in 16 home games, versus only 10 steals in 16 road games.  This means he is averaging nearly 1.4 steals per game at home, but just 0.63 steals on the road per game- an astounding 120% increase in Memphis.  In home games he has been credited with 88 blocks + steals, versus 45 on the road.  This equates to an average of an outlandish 5.5 blocks+steals at home in limited minutes versus a reasonable and realistic, and still outstanding, 2.81 steals+blocks per game on the road.  This equates to a 1.96X home stat increase only in these 2 categories.  A 96% increase in performance specifically at home is truly an aberration which should be reviewed.  This demonstrates the sort of incredulous statistics which calls for serious analysis. 
+
+Just 3 out of his 14 games this season with 5+ blocks+steals have come on the road.  8 out of 9 of his 6+ steals+blocks games have been recorded in Memphis.  I decided to watch 2 memphis grizzlies games where he had one of his ludicrous 8+ blocks+steals games.  By my count he actually had 3 fewer ""stocks""(some people refer to steals+blocks as stocks) than he was credited for by the home scorekeeper.  I wonder if the scorekeeper has some sort of vested interest in Jaren Jackson getting maximum high value defensive statistics that he thinks he can get away with putting down into the box score.  
+
+Jaren Jackson in July - mid November started as high as +10,000 for DPOY at certain sportsbooks after the Grizzlies announced he had undergone a procedure to address a stress fracture in his right foot and would be sidelined for 4-6 months.  Now, in large part thanks to these blatantly wrong statistics, he is a huge odds on favorite at higher than -200. 
+
+I conducted some analysis on all 78 games jaren jackson played last season... my hypothesis was that his home/road difference on steals &amp; blocks would both be small.  He had 90 blocks in Memphis and 87 blocks on the road.  He had 39 steals in Memphis and 34 steals on the road.  He had 129 ""stocks"" in Memphis vs. 121 ""stocks"" on the road.  BPG was actually 12.7% lower on the road(he played 4 fewer home games) while steals+blocks/game was 15% lower on the road- higher than i expected, but reasonable given all the differences for Memphis when playing at home vs on the road, from their home/away record difference to crowd noise to effort/energy/intensity exerted by players, etc.
+90%+ higher in Memphis, however, as is the case this season, is NOT REASONABLE AND COMPLETELY UNREALISTIC.  My educated guess is that the Memphis scorekeeper(s) have been changed since last season and/or ULTERIOR MOTIVES, INCENTIVES are now in play with respect to JJJ's defensive statistics. 
+
+Why is this happening so blatantly to the point where a person can just look at Jaren Jackson Jrs. steals+blocks #s on the box score and determine with a high level of confidence whether that game was played on the road or in Memphis is the next question... 
+
+Three potential explanations, only one of which is innocent: 
+
+1. Jaren Jackson plays MUCH MUCH MUCH harder at home and hustles like a maniac and focuses on stealing and blocking shots like crazy in Memphis, causing his numbers to be skewed in an absurd manner even compared to his regular highly efficient top 3- but realistic, road numbers. This can almost certainly be discounted because i looked at his other statistics and everything from his minutes per game to points per game to rebounds per game and even fouls are close in terms of home/away splits. 
+
+2. The Memphis scorekeeper is a huge Jaren Jackson Jr. fan and is purposely imbellishing his steals &amp; blocks, since that is much easier to do than points or rebounds, for instance.  When he contests a shot well, but does not touch the ball, perhaps the scorekeeper purposely gives him the undeserved stat and donates blocks to him where none occurred, for instance. 
+
+3. It should also be investigated in this age of fantasy basketball and gambling on sports whether this scorekeeper and/or his family and friends bet on Jaren Jackson to win the defensive player of the year award at super long odds and as a result has a tremendous financial incentive to juice and fake a player's 2 most valuable defensive statistics- BLOCKS and STEALS, which are also the easiest to fudge #s on because it is often most difficult to definitively label steals and blocks without slow motion on at least some of the plays in question. 
+
+I and all NBA fans would appreciate a thorough investigation into this matter.  It is important to have 100% integrity in statistics not only for things such as fantasy sports, sportsbetting, futures wagers, but even more importantly to ENSURE THE INTEGRITY OF THE GAME FOR ALL.  This is mandatory to be able to compare players' statistics versus other players now in the league fairly as well as across seasons and know the numbers are accurate, correct, and not unfairly manipulated by home arena scorekeepers. 
+
+I decided to watch just a few of the Grizzlies' recent games and immediately started noticing a pattern: Plays at FedEx arena in Memphis constantly being scored wrongly to gift Jackson extra steals and blocks which never occurred.  Simply put, if a shot does not hit the rim or it otherwise looks bad somehow, and Jaren Jackson is either contesting the shot or close to the action, he is credited with FRAUDULENT blocks repeatedly.  Sometimes this is achieved by taking away the stat from his teammates. Other times, an opposing player simply loses the ball or shoots a contested shot way off target, but Jackson nevertheless is credited with steals &amp; blocks that never occurred in both instances.  Also, when he deflects a ball and it goes to a teammate he is credited with the steal.  When his teammate deflects the ball and it goes to him he is STILL credited with the steal IN MEMPHIS.  When he tips or deflects a ball, but never gains possession nor do the Grizzlies, he is still awarded a steal. 
+
+The following is just a very small % of questionable or outright WRONG steals and blocks given to Jackson: 
+
+Example #1 New Orleans Pelicans @ Memphis Grizzlies 
+Saturday 12/31
+7mins, 21 sec remaining in the 2nd quarter
+Zion drives to the basket, NEVER shoots the ball, and loses it. ""Williamson in a crowd, ball pops free, picked up by Tyus Jones, turnover number 9 by the pelicans"" announcers say.  Scorekeeper in Memphis graded the play as Jaren Jackson Jr. blocks Zion Williamson's 3-foot driving layup 
+
+Example #2 Utah Jazz @ Memphis Grizzlies 
+Sunday 1/8 
+10:09 remaining in the 1st quarter
+Jordan Clarkson throws a bad pass directly to Desmond Bane and Jaren Jackson for some odd reason is credited with the steal.  Bane actually steals the ball. 
+
+Example #3 Utah Jazz @ Memphis Grizzlies
+Sunday 1/8
+1:46 remaining in the 4th quarter
+Kelly Olynyk loses the ball while being defended by Xavier Tillman.  The ball then bounces off Tillman and Jaren Jackson before being picked up by Tillman. The steal should be credited to Tillman.  Memphis scorekeeper grades the play as Jaren Jackson Jr. steals 
+
+Example #4 Phoenix Suns @ Memphis Grizzlies
+Monday 1/16
+7:02 remaining in the 4th quarter
+Brandon Clarke blocks Saban Lee's layup, but the Memphis scorekeeper instantly gives the block to nearby Jaren Jackson Jr. 
+
+Example #5 Cleveland Cavaliers @ Memphis Grizzlies
+Wednesday 1/18
+11:48 remaining in the 2nd quarter
+Lamar Stevens, who Jaren Jackson helps on, loses the ball and Desmond Bane picks it up and gains possession.  The Memphis scorekeeper gave steal to Jaren Jackson. 
+
+Example #6 Detroit Pistons @ Memphis Grizzlies
+Friday, December 9th
+39 seconds remaining in the 2nd quarter
+Jackson deflects a pass and never gains possession, saved back to Detroit player. Memphis scorekeeper gives a steal to Jackson. 
+
+Example #7 Oklahoma City Thunder @ Memphis Grizzlies
+Wednesday, December 7th
+10:38 4th quarter
+Jackson saves out of bounds ball directly to Thunder player underneath basket for quick score, but gets credited with a steal. 
+
+Thank you very much for reading this.  I would appreciate well thought out responses, a good discussion, and also advice on how someone in charge at the NBA can investigate these plays as well as others from Grizzlies games, and the dishonest Memphis scorekeeper.  Also, can obviously fraudulent statistics be deleted, corrected &amp; reversed weeks/months later?",analysis,
+"[Post Game Thread] The Denver Nuggets defeat the Los Angeles Clippers 104-89 behind Murray's 40 and Jokic's triple-double to comeback from a 3-1 series deficit and advance to the Western Conference Finals **[](/DEN) DEN**|**Min**|**FG**|**FT**|**3PT**|**+/-**|**OR**|**Reb**|**A**|**Blk**|**Stl**|**TO**|**PF**|**Pts**|
+|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+N. Jokic|39:40|5-13|6-6|0-4|+22|3|22|13|3|2|5|4|16|
+J. Murray|44:41|15-26|4-4|6-13|+15|0|4|5|0|1|5|1|40|
+G. Harris|36:53|6-11|0-0|2-6|+21|2|6|1|1|1|1|3|14|
+P. Millsap|31:31|2-6|0-0|2-4|+19|1|3|1|1|0|1|2|6|
+J. Grant|30:57|5-10|2-2|2-6|+19|2|5|1|0|0|3|4|14|
+T. Craig|19:04|3-6|0-0|0-1|-1|2|6|0|0|0|1|1|6|
+M. Porter Jr.|14:47|0-2|2-2|0-2|+1|1|7|0|0|0|1|2|2|
+M. Morris|13:13|2-3|0-0|1-1|-8|0|0|1|0|0|1|0|5|
+M. Plumlee|7:53|0-0|1-2|0-0|-4|0|0|0|0|0|2|3|1|
+P. Dozier|0:27|0-0|0-0|0-0|-3|0|0|0|0|0|0|0|0|
+T. Daniels|0:27|0-0|0-0|0-0|-3|0|0|0|0|0|0|0|0|
+K. Bates-Diop|0:27|0-0|0-0|0-0|-3|0|0|0|0|0|0|0|0|
+V. Cancar|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+T. Cook|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+N. Vonleh|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+W. Barton|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+B. Bol|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+Totals|240|38-77(.494)|15-16(.938)|13-37(.351)|-|11|53|22|5|4|20|20|104|
+
+**[](/LAC) LAC**|**Min**|**FG**|**FT**|**3PT**|**+/-**|**OR**|**Reb**|**A**|**Blk**|**Stl**|**TO**|**PF**|**Pts**|
+|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+I. Zubac|14:18|3-5|0-0|0-0|-10|2|2|0|0|0|0|3|6|
+K. Leonard|43:30|6-22|0-0|2-7|-21|0|6|6|1|2|2|1|14|
+P. George|38:14|4-16|0-1|2-11|-20|2|4|2|1|1|5|4|10|
+P. Beverley|30:11|4-7|2-2|1-2|+4|2|5|6|1|3|0|3|11|
+M. Morris Sr.|26:12|2-9|2-2|1-6|-11|0|6|0|0|1|1|2|7|
+M. Harrell|25:43|7-10|6-9|0-0|-8|1|3|0|0|0|1|3|20|
+L. Williams|24:37|3-11|0-0|1-4|+2|3|4|6|0|0|1|1|7|
+J. Green|23:56|4-7|2-2|1-3|0|2|6|0|0|1|0|1|11|
+L. Shamet|6:07|1-1|0-0|1-1|-10|0|0|0|0|0|0|1|3|
+R. Jackson|4:05|0-2|0-0|0-1|-9|0|0|0|0|0|0|1|0|
+T. Mann|1:43|0-0|0-0|0-0|+3|0|0|0|0|0|0|0|0|
+R. McGruder|1:24|0-0|0-0|0-0|+5|0|1|1|0|0|0|0|0|
+A. Coffey|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+P. Patterson|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+J. Noah|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+M. Kabengele|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+J. Motley|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+Totals|240|34-90(.378)|12-16(.750)|9-35(.257)|-|12|37|21|3|8|10|20|89|
+
+||
+|:-:|",analysis,
+"[Post Game Thread] The Toronto Raptors defeat the Golden State Warriors 114-110 in Game 6 to win their first NBA Championship **[](/TOR) TOR**|**Min**|**FG**|**FT**|**3PT**|**+/-**|**OR**|**Reb**|**A**|**Blk**|**Stl**|**TO**|**PF**|**Pts**|
+|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+M. Gasol|26:34|0-5|3-4|0-2|-7|3|9|4|0|0|1|4|3|
+P. Siakam|46:09|10-17|3-4|3-6|0|2|10|3|1|1|2|2|26|
+K. Lowry|41:41|9-16|4-6|4-7|+14|2|7|10|0|3|3|5|26|
+K. Leonard|41:08|7-16|5-6|1-5|-4|1|6|3|1|2|2|4|20|
+D. Green|17:44|0-0|0-0|0-0|+7|0|1|3|0|1|1|1|0|
+F. VanVleet|33:47|6-14|5-5|5-11|-12|1|2|0|0|1|1|1|22|
+S. Ibaka|22:06|7-12|1-2|0-1|+7|2|3|2|0|0|1|4|15|
+N. Powell|10:46|0-2|0-0|0-1|+5|0|1|0|0|0|1|2|0|
+O. Anunoby|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+P. McCaw|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+J. Loyd|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+M. Miller|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+C. Boucher|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+J. Lin|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+J. Meeks|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+E. Moreland|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+Totals|240|39-82(.476)|21-27(.778)|13-33(.394)|-|11|39|25|2|8|12|23|112|
+
+**[](/GSW) GSW**|**Min**|**FG**|**FT**|**3PT**|**+/-**|**OR**|**Reb**|**A**|**Blk**|**Stl**|**TO**|**PF**|**Pts**|
+|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+K. Looney|26:55|3-7|0-0|0-0|-4|2|3|3|1|1|1|2|6|
+D. Green|44:11|5-10|0-2|1-4|+2|4|19|13|2|3|8|4|11|
+S. Curry|41:52|6-15|6-6|3-9|+1|1|3|7|1|2|3|3|21|
+A. Iguodala|32:13|9-15|1-5|3-6|-3|0|2|2|1|0|1|2|22|
+K. Thompson|32:00|8-12|10-10|4-6|+5|1|5|0|0|2|2|3|30|
+D. Cousins|18:39|4-9|4-7|0-1|0|1|5|2|1|0|0|3|12|
+S. Livingston|16:01|3-5|0-0|0-0|-1|0|0|0|0|1|1|1|6|
+Q. Cook|12:26|1-4|0-0|0-3|-14|0|1|0|0|0|0|2|2|
+A. McKinnie|10:29|0-1|0-0|0-1|+4|2|3|0|0|0|0|2|0|
+A. Bogut|2:50|0-1|0-0|0-0|-1|0|1|0|0|0|0|0|0|
+J. Jerebko|2:19|0-0|0-0|0-0|+1|0|0|0|0|0|0|0|0|
+M. Derrickson|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+D. Jones|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+J. Bell|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+D. Lee|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+K. Durant|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+J. Evans III|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+Totals|240|39-79(.494)|21-30(.700)|11-30(.367)|-|11|42|27|6|9|16|22|110|
+
+||
+|:-:|
+|^[nbaboxscoregenerator.com](http://www.nbaboxscoregenerator.com) ^by ^/u/Obi-Wan_Ginobili|",analysis,
+"THE LOS ANGELES LAKERS HAVE BEEN ELIMINATED FROM CHAMPIONSHIP CONTENTION With their loss to the Suns tonight the Lakers can finish at best 34-48. With the Spurs win over Nuggets, the Spurs can finish no worse than 34-48, while also holding the tie breaker against the Lakers, cementing the Lakers finishing at best as the 11th seed and ending their hopes at making the play-in",analysis,
+"When the Utah Jazz decided to test their entire team and personnel last week (58 tests), they consumed 20% of available stock of test kits for the entire state of Oklahoma.",analysis,
+"Somehow DeSean Jackson, Stephen Jackson, Kevin Durant and JR Smith praising Hitler is getting less coverage than Drew Brees' comments. Skip and Shannon just did a segment on the incident where Shannon says it was 'taken out of context' and that he believes DeSean has no hate in his heart. Warning him to 'be careful' because people are hyper sensitive in 2020.' Wow.
+
+[https://www.youtube.com/watch?v=Ymp3jau67C8](https://www.youtube.com/watch?v=Ymp3jau67C8)
+
+ESPN showed an apology from DeSean after the Eagles' statement.
+
+[https://www.youtube.com/watch?v=ygf5WSDxlFQ](https://www.youtube.com/watch?v=ygf5WSDxlFQ)
+
+I'm sure the right wing media will jump on this full force but that's probably about it, but I don't think it will get the same coverage/outrage as Drew Brees did, which is unfortunate because this is a major fuck up and needs to be addressed.
+
+&amp;#x200B;
+
+UPDATE: even softer kid gloves from Stephen A Smith and Max . This is fucked up.
+
+[https://www.youtube.com/watch?v=TEPGvp8B9R0](https://www.youtube.com/watch?v=TEPGvp8B9R0)
+
+&amp;#x200B;
+
+Also, wow, this post is getting a lot of attention which is hopeful.
+
+Last year I read 'The Work I Did: A Memoir of the Secretary to Goebbels' by Goebbels (head of Nazi propaganda)'s secretary, it goes into detail about the tactics the propaganda ministry used to convince the German public that Jews were a problem,[it's very similar to the things Stephen Jackson is saying on social media right now](https://www.reddit.com/r/nba/comments/hnkd3i/person_hes_speaking_with_on_ig_live_the_point_is/). It's frightening to see how many people are supporting him in the comments as well.",analysis,
+"In 2002, Eminem accurately predicted which among two elite centers would have the better NBA career. Eminem's movie '8 mile' was released in 2002, and it has become prophetic. In the [final rap battle scene](https://youtu.be/z0BF1qnsYDU?t=142)  , the first line Eminem utters after the time runs out is ""fuck Thabeet, I'd go a Capella"", indicating that he would rather bet on Clint Capela having a better NBA career than Hasheem Thabeet. This would go on to be a good bet, as Clint Capela, in his ongoing career, has been averaging 12.2 PTS/9.7 TRB/1.5 BLK on 63.4% FG in 334 games, versus Hasheem Thabeet who has done 2.2 PTS/2.7 TRB/0.8 BLK on 56.7% FG in 224 games.
+
+&amp;#x200B;
+
+Edit: I messed up the formatting. Forgive me, Slim Shady.
+
+Edit2: I know that's not what Eminem said lmao, it's just a joke guys",analysis,
+"[Kareem Abdul-Jabbar] While LeBron James is a necessary and dynamic voice critical of police brutality against the Black community, he needs to be the same necessary and dynamic advocate with vaccines, which could save thousands of Black lives right now. [Source](https://kareem.substack.com/p/dear-lebron-heres-the-covid-19-help)
+
+&gt; LeBron James is not only one of the greatest basketball players ever, he’s committed to being a leader in the African American community in the fight against inequality. But his Thursday Instagram meme showing three cartoon Spider-Men pointing at each other—one labeled “covid,” one labeled “flu,” one labeled “cold”—with his message: “Help me out folks” was a blow to his worthy legacy. The meme’s implication is that LeBron doesn’t understand the difference among these three illnesses, even after all the information that’s been presented in the press. Well, since he asked, let me help him out by explaining the difference—and how knowing that difference might save lives, especially in the Black community.
+&gt; 
+ -----
+&gt; 
+&gt; First, let’s put his meme in context. In September, LeBron stated: “I don’t talk about other people and what they should do. We’re talking about individual bodies. We’re not talking about something political or racism or police brutality. I don’t think I personally should get involved in what other people do for their bodies and livelihoods ... I know what I did for me and my family ... But as far as speaking for everybody and their individualities and things they want to do, that’s not my job.”
+&gt; 
+&gt; Here’s the first problem with that statement: With 106 million Instagram followers, making such a post is automatically politically impactful because he questions the validity of the efforts to get the country vaccinated. As is evident by some of the comments that cheer LeBron’s post, he’s given support to those not getting vaccinated, which makes the situation for all of worse by postponing our health and economic recovery. The CDC reports that those who are unvaccinated are 9 times more likely to be admitted to the hospital and 14 times more likely to die from COVID than those vaccinated. The number rises to 20 time more likely when compared to someone who’s gotten a booster shot. By posting the uninformed meme, LeBron has encouraged vaccine hesitancy which puts lives and livelihoods at risk.
+&gt; 
+&gt; Here’s the second problem with that statement: He says we’re not talking about racism, but we most definitely are. As of December 2020, about 97.9 out of every 100,000 African Americans had died from COVID-19, a third higher than that for Latinos (64.7 per 100,000), and more than double than that for whites (46.6 per 100,000) and Asians (40.4 per 100,000). According to an article on the U.S. National Library of Medicine site, “The overrepresentation of African Americans among confirmed COVID-19 cases and number of deaths underscores the fact that the coronavirus pandemic, far from being an equalizer, is amplifying or even worsening existing social inequalities tied to race, class, and access to the health care system.”
+&gt; 
+
+---- 
+
+&gt; A year later, the communities of People of Color are still suffering at a much higher rate than white communities. In November 2021, the CDC stated, “It has highlighted that health equity is still not a reality as COVID-19 has unequally affected many racial and ethnic minority groups, putting them more at risk of getting sick and dying from COVID-19.” One study in Atlanta showed 79% of Blacks with COVID-19 were hospitalized versus 13% of whites. COVID-19 has resulted in a drop in life expectancy among whites of 1.2 years. Among the Black and Latinx communities it was more than 3 years.
+&gt; 
+&gt; For those confident that the Omicron variant may not be as harsh as previous variants, it’s important to realize that, while most might come out of it okay, they can still unwittingly infect others along the way—the elderly, people with compromised immune systems, people with respiratory problems—who could end up hospitalized or dead. Also, almost half of those who recover from initial COVID-19 illness have “long-haul COVID,” with persistent symptoms of brain fog, shortness of breath, fatigue, dizziness, and headaches.
+&gt; 
+&gt; For those pointing out that there are “breakthrough” cases in which the vaccinated contract COVID-19. Yes, but they also have lighter symptoms and are at a much less risk of dying than the unvaccinated. The crucial statistic here is this: 98-99% of Americans dying of COVID-19 are unvaccinated.
+&gt; 
+
+-----
+
+&gt; Vaccine hesitancy is higher in the Black community than in any other. While there are certainly justifiable historical reasons for Blacks to be skeptical of the health care system that has routinely marginalized, ignored, and even illegally experimented on them, that is not enough to justify compromising their health and even losing their lives during the current health crisis.
+&gt; 
+&gt; To directly address LeBron’s confusion, no one thinks colds and the flu aren’t serious. In the 2019-2020 flu season, 400,000 people were hospitalized and 22,000 people died. In 2020, 385,428 people died of COVID-19, while so far in 2021, 423,558 have died in the U.S., for a total of 808,986 deaths. Experts agree that COVID-19 is at least 10 times more lethal than the flu. As for the common cold, death is extremely rare.
+&gt; 
+&gt; However, LeBron, if you’re concerned about the flu, then help promote the flu vaccination. In the 2019-2020 flu season, only 51.8% in the U.S. were vaccinated, well below the 70% that is the target. Worse, the vaccination rate is 20% lower among Blacks than whites and as a result they have the highest hospitalization rate due to flu of any other group. This is due to vaccination hesitancy that your meme promotes.
+&gt; 
+&gt; One way to help the Black community to overcome their hesitancy and save lives is for prominent Black celebrities and influencers to continue to encourage everyone to get vaccinated and their boosters. Immunization, whether from vaccines or having had the disease, lessens over time and makes people vulnerable for reinfection.
+&gt; 
+&gt; While LeBron is a necessary and dynamic voice critical of police brutality against the Black community, he needs to be the same necessary and dynamic advocate with vaccines, which could save thousands of Black lives right now. The racism is just as real—and just as lethal—in both cases.",analysis,
+"Can we please stop calling players that 90% of people wouldn’t recognize by their initials? KD, AD, MJ, PG, LBJ (I prefer just LeBron but this one’s fine) etc are all easily recognizable. 
+
+Calling Russ RW is annoying because RW literally has the same amount of syllables as his full name, but at least it makes sense because he’s a high profile player? 
+
+BUT BOY DOES IT GRIND MY GEARS WHEN SOMEONE SAYS
+
+ *”Jazz could use someone like SM”*
+
+AND I HAVE TO WASTE 10 MINUTES GOING THROUGH THEIR POST HISTORY AND GOOGLE TO FIND OUT THIS MF WAS TALKING ABOUT *SHAKE MILTON*
+
+If a player is consensus worth talking about, chances are they already have a nickname or we just use their first or last name. 
+If they do not, then chances are most people wouldn’t recognize them by a nickname you make up. There is no reason to go against the grain and confuse people.
+
+Edit: thank you for my first award friend 
+
+Edit 2: wow",analysis,
+"Is Lebron DENNIS systeming the cavs? He already:
+
+Demonstrated value by playing amazing basketball since his first game in the NBA 
+
+Engaged them physically by spending his first 7 years playing with them and taking them to their first finals
+
+Nurtured their dependence by assembling a team that depended on him to be successful (just look how the same team that won 60+ games in 09 became a lottery team a year later)
+
+Neglected them emotionally with The Decision 
+
+Inspired hope by coming back and winning them their first championship
+
+now all that’s left is to...
+
+Separate entirely
+
+Edit: Whoever gilded this, thank you! You are a real golden god!!!",analysis,
+"Dallas Mavericks broke the NBA record for the largest halftime lead with 50 point margin (77-27) against Los Angeles Clippets. Previous record was 47 points, Golden State Warriors’ 88-41 lead against Sacramento Kings in 1991-92 NBA season.",analysis,
+"[Post Game Thread] The Los Angeles Lakers (17-65) defeat the Utah Jazz (40-42), 101-96, behind a 60 point performance from Kobe Bryant in his final game **[](/UTA) UTA**|**Min**|**FG**|**FT**|**3PT**|**+/-**|**OR**|**Reb**|**A**|**Blk**|**Stl**|**TO**|**PF**|**Pts**|
+|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+G. Hayward |31:56|6-16|3-5|2-6|-12|1|2|3|0|0|2|2|17
+T. Lyles|39:07|7-15|2-3|2-6|-6|2|11|3|0|5|3|2|18
+J. Withey|27:47|4-7|2-3|0-0|-3|1|9|1|1|1|1|3|10
+R. Hood|18:04|2-7|0-0|0-2|-18|1|2|3|0|1|1|1|4
+S. Mack|34:33|5-12|2-2|0-4|-1|1|5|6|0|0|3|2|12
+R. Neto|18:59|4-7|0-0|0-2|+5|0|1|4|0|0|0|0|8
+T. Booker |28:47|4-7|0-2|0-0|-1|2|5|2|0|1|1|3|8
+J. Ingles |20:30|4-7|0-0|4-7|-8|0|1|4|0|2|0|1|12
+C. Johnson |20:17|3-5|0-0|1-3|+19|2|2|1|0|0|2|2|7
+Totals|240|39-83 (.470)|9-15 (.600)|9-30(.300)|-|8|38|27|1|10|13|16|96
+
+**[](/LAL) LAL**|**Min**|**FG**|**FT**|**3PT**|**+/-**|**OR**|**Reb**|**A**|**Blk**|**Stl**|**TO**|**PF**|**Pts**|
+|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+K. Bryant|42:09|22-50|10-12|6-21|+7|0|4|4|1|1|2|1|60
+J. Randle|33:09|1-4|0-0|0-0|+3|0|9|1|1|1|1|2|2
+R. Hibbert|21:00|2-3|0-0|0-0|+3|3|6|2|0|0|1|2|4
+J. Clarkson|34:07|6-10|0-0|0-1|+9|2|7|1|0|1|1|1|12
+D. Russell|36:00|4-10|1-1|0-3|+1|0|4|5|0|2|2|3|9
+M. Huertas|25:53|1-2|0-0|0-0|+0|0|4|6|0|0|3|2|2
+L. Nance Jr.|28:08|3-3|2-2|0-0|+10|1|6|0|0|1|1|2|8
+T. Black|18:07|2-3|0-0|0-0|-9|2|7|0|1|0|2|4|4
+R. Kelly|1:27|0-0|0-0|0-0|+0|0|0|0|0|0|0|0|0
+Totals|240|41-85 (.482)|13-15 (.867)|6-25(.240)|-|8|47|19|3|6|13|17|101",analysis,
+"The Charlotte Hornets have a transgender mascot Hugo the hornet is the mascot for the Charlotte hornets. His Facebook page lists him as male, he has a male name, but he also has a stinger. Only females have stingers as they are modified ovipositors. This means he must have been born a female, and later transitioned to a male before becoming the mascot for the Charlotte Hornets. I suspect this was kept quiet at the time because transgender individuals dealt with even more bigotry back in 1988 when he was introduced, than they do today. The other possibility is that he is a male hornet, and does not actually have a stinger. This makes sense if you look at their record.",analysis,
+"Why isn't LeBron taking the same criticism for joining the Lakers that KD got when he joined GSW? KD joined GSW after blowing a 3-1 lead to them in the West Finals. 
+
+LeBron joined the Lakers after they won the Summer League title.
+
+What's with the double standard?",analysis,
+"Lonzo Ball released more songs on spotify (21), than he made free throws last season (20). I saw a joke on twitter that Lonzo has more songs than made free throws and checked the stats and it is true.. he went 20/48 from the line last season and he has 21 songs on spotify. I‘ll say that it’s pretty impressive that he has 21 songs and that he’s a pretty good rapper too.",analysis,
+"All-NBA name teams. **The All-NBA Most Likely to be Mispronounced team**
+
+PG- Giannis Antetokounmpo
+
+SG- Frank Ntilikina
+
+SF- Kostas Papanikolaou
+
+PF- Ersan Ilyasova
+
+C- Jonas Valanciunas
+
+
+**The All-NBA ""They misspelled my name again"" team**
+
+PG- Anfernee Hardaway
+
+SG- Dwyane Wade
+
+SF- Antawn ""But for real, call me Antwan"" Jamison
+
+PF- Marreese Speights
+
+C- Juwan Howard
+
+**The All-NBA ""I look exactly like my name sounds"" team**
+
+PG- Pablo Prigioni
+
+SG- Popeye Jones
+
+SF- Slick Watts
+
+PF- Dirk Nowitzki
+
+C- Kelly Olynyk
+
+
+
+**The All-NBA middle name team**
+
+PG- Rajon Pierre Rondo
+
+SG- Kobe Bean Bryant
+
+SF- Kevin Wayne Durant (If KD changed his number to 40 his new nickname could be WD40)
+
+PF- Tyson Cleotis Chandler
+
+C- Steven Funaki Adams
+
+
+**The All-NBA ""Thank God for my middle name"" team**
+
+PG- Wardell Stephen Curry
+
+SG- Walter Ray Allen
+
+SF- Kehinde Babatunde Victor Oladipo
+
+PF- Holdyn Jerian Grant 
+
+C- Hyland DeAndre Jordan
+
+**The All-NBA Prophet Team**
+
+PG- Ishmael Smith
+
+SG- Fred Christ
+
+SF- Jesusemilore Ojeleye
+
+PF- Moses Malone
+
+C- Joakim Noah
+
+**The All-NBA Speed Team**
+
+PG- Speedy Claxton
+
+SG- Bob Quick
+
+SF- Brandon Rush
+
+PF- Kareem Rush
+
+C- Stromile Swift
+
+
+**The All-NBA Toon Squad**
+
+PG - Pepe Sanchez
+
+SG - Pooh Richardson
+
+SF - Barney Cable
+
+PF - Popeye Jones
+
+C - Mickey Johnson
+
+
+
+
+**The All-NBA Servile Team**
+
+PG- Daequan Cook
+
+SG- Dion Waiters
+
+SF- Otto Porter
+
+PF- Caron Butler
+
+C- Wilt Chamberlain
+
+**The All-NBA Pornstar Name Team**
+
+PG- Fat Lever
+
+SG- Magic Johnson
+
+SF- Dick Van Arsdale
+
+PF- Chubby Cox
+
+C- Tiago Splitter
+
+**The All-NBA Female Pornstar Name Team**
+
+PG- Courtney Lee
+
+SG- Jodie Meeks
+
+SF- Kim English
+
+PF- Diamond Stone 
+
+C- Alexis Ajinca
+
+
+
+
+**All-NBA Nerdy Name Team**
+
+PG-Vernon Maxwell
+
+SG- Kennard Winchester
+
+SF- Quincy Pondexter
+
+PF- Clarence Weatherspoon
+
+C- Olden Polynice 
+
+
+**The All-NBA ""We Barely Escaped Having Nerdy Names and Instead Have Quite Distinguished Names"" Team**
+
+PG- Langston Galloway
+
+SG- Clyde Drexler
+
+SF- Perry Worthington
+
+PF- Worthington R. Patterson
+
+C- Charles Shackleford
+
+
+
+**The All-NBA ""Names that sound distinguished and ghetto at the same time"" team**
+
+PG- Chauncey Billups
+
+SG- Kentavious Caldwell-Pope
+
+SF- Martell Webster
+
+PF- Rondae Hollis-Jefferson
+
+C- Sindarius Thornwell
+
+
+
+
+
+**The All-NBA ""Shouldn't The Last Name and the First Name Be Switched Around?"" Team**
+
+PG- Jarrett Jack
+
+SG- Walker Russell
+
+SF- Carmelo Anthony
+
+PF- Kornel David
+
+C- Randolph Morris
+
+
+**The All-NBA Anatomical Name Team**
+
+PG- Maurice Cheeks
+
+SG- Jason Hart
+
+SF- Luther Head
+
+PF- Foots Walker
+
+C- BJ Armstrong
+
+
+**The All-NBA Animal Kingdom of a Name Team**
+
+PG- Rory Sparrow
+
+SG- Rick Fox
+
+SF- Larry Bird
+
+PF- Bison Dele
+
+C- Matt Fish
+
+
+**The All-NBA Exploring the Wonders of Nature Team**
+
+PG- Royal Ivey
+
+SG- Austin Rivers
+
+SF- Jamario Moon
+
+PF- Cherokee Parks
+
+C- Tree Rollins
+
+
+
+**The All-NBA Most Colorful Names in the Game Team**
+
+PG- Jo Jo White
+
+SG- Blue Edwards
+
+SF- Norman Black
+
+PF- Sidney Green
+
+C- Stuart Gray
+
+
+**The All-NBA Inanimate Objects as Names Team**
+
+PG- John Wall
+
+SG- Raja Bell
+
+SF- Keith Van Horn 
+
+PF- Cedric Ball
+
+C- Greg Kite
+
+**The All-NBA Flora Team**
+
+C- Tree Rollins
+
+PF- Charles Oakley
+
+SF- Royal Ivey
+
+SG- Zach LaVine
+
+PG- Derrick Rose
+
+**The All-NBA ""Does my name make anyone else here hungry?"" team**
+
+PG- Steph Curry
+
+SG- O. J. Mayo
+
+SF- Glen Rice
+
+PF- Channing Frye
+
+C- Ron Baker",analysis,
+"Wilt Chamberlain secretly dominated professional basketball at age 16 under a false identity. Scoring as much as 46 points against pros in the Eastern U.S. with a team record of 36-1. By age 17 he was averaging 40.5ppg. This is the first time I'm sharing this research: [Wilt Chamberlain Dominating Professional basketball leagues at age 16, and 17](http://imgur.com/vNZZsm5)
+
+Calculated averages for 17 year old Wilt as a Quakertown Fay:
+
+* 40.5ppg in 9 regular season games (according to one of the articles)
+
+* 74ppg in 6 playoff games (according to the math... not sure it's even possible but who knows)
+
+* 53.9ppg in 15 total games (according to a Quakertown book)
+
+* Worth mentioning he won the MVP award in that league
+
+[Image 2](http://imgur.com/NmbZnL8.jpg)
+
+[Image 3](http://imgur.com/2nhBTqC.jpg)
+
+[Image 4](http://i.imgur.com/BBnYsYc.jpg)
+
+[Image 5](http://i.imgur.com/ecuUBnC.png)
+
+Wilt Chamberlain, or as he was first known, ""George Marcus"", secretly dominated professional basketball under that assumed identity at age 16 for the Pittsburgh Raiders. Even as a kid against 6-11 men his own size playing professionally (such as former Harlem Globetrotters!) he averaged 53.9ppg by age 17. I found game recaps of multiple 46 point performances for the Quakertown Fay's at age 17, and at least one 44 point game even at age 16 for the Pittsburgh Raiders.
+
+This is not only not often talked about, it's NEVER talked about. I've seen only a few references to his professional career that predated college basketball. When I researched this I found out it got him into potential trouble with the NCAA and so it was kept hushed and perhaps left to be forgotten.
+
+*EDIT* Allow me to plug one other researcher who I've come to learn first shared the photographs of Wilt playing for the Fay's a few years ago. I found him on Twitter, and here's a link to a fascinating video he produced!
+
+https://twitter.com/storyrd
+
+https://www.youtube.com/watch?v=un5HPRWW4Yk
+
+*EDIT*
+
+IMPORTANT UPDATE - According to a Quakertown book (researched by [bardown](http://www.bardown.com/under-a-fake-identity-wilt-chamberlain-dominated-pro-basketball-when-he-was-16-and-17-1.757398) staff) Wilt actually averaged 53.9ppg in all 15 games as a Quakertown Fay! He ""only"" averaged 40.5ppg in 9 regular season games but with playoffs combined his 15 game average shoots up to 53.9ppg! This means 74ppg in the 6 playoff games as a Fay. I'm not sure if this is even possible so please take with a grain of salt. Though he did score 90 points in high school and 100 in the NBA including 5 other 70+ point games so who knows. This being against former pros his own size too including 6-11 former Globetrotter Andy Maddox!",analysis,
+"[Post Game Thread] The Toronto Raptors (4-2) defeat the Milwaukee Bucks (2-4), 100-94, advancing to the NBA Finals for the first time in franchise history **[](/MIL) MIL**|**Min**|**FG**|**FT**|**3PT**|**+/-**|**OR**|**Reb**|**A**|**Blk**|**Stl**|**TO**|**PF**|**Pts**|
+|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+B. Lopez|34:02|5-12|8-9|0-3|-11|2|9|1|4|0|1|1|18|
+G. Antetokoun|40:31|7-18|5-10|2-5|+3|3|11|4|3|2|2|4|21|
+K. Middleton|40:29|5-13|0-0|4-8|0|1|4|0|0|0|2|3|14|
+M. Brogdon|31:27|3-6|2-2|2-5|-7|1|3|2|0|1|3|3|10|
+E. Bledsoe|30:19|3-9|1-2|1-3|-12|1|5|7|0|1|2|3|8|
+G. Hill|31:59|4-10|1-2|1-4|0|1|2|3|0|2|1|2|10|
+E. Ilyasova|21:30|3-7|5-6|2-5|-6|3|6|1|0|0|0|4|13|
+P. Connaughto|9:41|0-0|0-0|0-0|+3|0|2|1|1|1|0|2|0|
+D.J. Wilson|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+B. Colson|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+S. Brown|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+N. Mirotic|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+T. Snell|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+T. Frazier|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+P. Gasol|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+D. DiVincenzo|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+Totals|240|30-75(.400)|22-31(.710)|12-33(.364)|-|12|42|19|8|7|11|22|94|
+
+**[](/TOR) TOR**|**Min**|**FG**|**FT**|**3PT**|**+/-**|**OR**|**Reb**|**A**|**Blk**|**Stl**|**TO**|**PF**|**Pts**|
+|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+M. Gasol|26:18|2-3|0-0|2-2|+1|0|3|2|1|1|0|5|6|
+P. Siakam|41:29|7-17|3-4|1-3|+8|2|4|0|1|1|2|2|18|
+K. Leonard|41:25|9-22|8-11|1-8|+7|4|17|7|2|2|6|3|27|
+K. Lowry|41:05|6-10|2-2|3-4|0|0|5|8|0|1|1|5|17|
+D. Green|14:25|0-4|0-0|0-4|-7|0|2|1|0|2|0|2|0|
+F. VanVleet|33:50|5-6|0-0|4-5|+12|0|0|2|0|0|0|2|14|
+S. Ibaka|24:53|4-7|1-2|0-0|+3|0|3|0|0|0|0|4|9|
+N. Powell|16:31|3-5|2-3|1-1|+6|0|4|0|0|0|1|1|9|
+O. Anunoby|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+P. McCaw|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+J. Loyd|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+M. Miller|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+C. Boucher|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+J. Lin|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+J. Meeks|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+E. Moreland|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+Totals|240|36-74(.486)|16-22(.727)|12-27(.444)|-|6|38|20|4|7|10|24|100|
+
+||
+|:-:|
+|^[nbaboxscoregenerator.com](http://www.nbaboxscoregenerator.com) ^by ^/u/Obi-Wan_Ginobili|",analysis,
+"ESPN/ABC should take note of what Tony Romo did in the booth last night and replace Mark Jackson with someone who actually provides insight and perspective during a nationally televised NBA game. Last night Tony Romo added beautiful color commentary to the Chiefs/Patriots game last night. As a former Quarterback he provided great insight as to what play the other team may or may not run, and why. He even predicted quite a few plays. 
+
+What we get for nationally televised NBA games during the Conference Finals and NBA finals from Mark Jackson is nothing short of crap. Jackson offers no insight as a former point guard. Instead he spends most of the game poking fun at JVG and talking about absolute nonsense and quite frankly I’m sick of it. He distracts the fans and ruins the experience, especially when it’s a game when there’s so much on the line.",analysis,
+"[Post Game Thread] The Toronto Raptors defeat the Golden State Warriors, 118-109, take a 1-0 lead. **[](/GSW) GSW**|**Min**|**FG**|**FT**|**3PT**|**+/-**|**OR**|**Reb**|**A**|**Blk**|**Stl**|**TO**|**PF**|**Pts**|
+|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+J. Bell|11:38|1-2|0-0|0-0|-4|1|3|1|0|0|0|0|2|
+D. Green|40:20|2-9|6-6|0-2|-8|0|10|10|0|1|6|5|10|
+S. Curry|40:15|8-18|14-14|4-9|-9|1|5|5|0|1|3|4|34|
+K. Thompson|39:19|8-17|2-2|3-6|-10|2|5|1|0|0|2|3|21|
+A. Iguodala|29:11|3-7|0-0|0-4|-8|2|6|7|1|0|2|3|6|
+K. Looney|28:20|4-5|1-2|0-0|-4|1|3|1|0|1|1|5|9|
+S. Livingston|17:30|2-6|2-2|0-1|-2|1|4|1|1|1|0|3|6|
+Q. Cook|9:17|2-4|1-1|1-2|-2|0|0|1|0|0|0|1|6|
+A. McKinnie|8:26|2-4|0-0|2-3|+4|0|1|0|0|0|1|1|6|
+D. Cousins|8:03|0-2|3-4|0-1|-1|0|0|2|0|2|1|2|3|
+J. Jerebko|7:36|2-4|0-0|2-3|-1|1|1|0|0|0|0|0|6|
+J. Evans III|0:04|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+M. Derrickson|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+D. Jones|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+D. Lee|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+K. Durant|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+A. Bogut|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+Totals|240|34-78(.436)|29-31(.935)|12-31(.387)|-|9|38|29|2|6|16|27|109|
+
+**[](/TOR) TOR**|**Min**|**FG**|**FT**|**3PT**|**+/-**|**OR**|**Reb**|**A**|**Blk**|**Stl**|**TO**|**PF**|**Pts**|
+|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+M. Gasol|29:43|6-10|6-6|2-4|+8|0|7|1|1|2|0|6|20|
+K. Leonard|43:04|5-14|10-12|3-6|+11|1|8|5|0|1|2|3|23|
+P. Siakam|39:45|14-17|2-2|2-3|+4|3|8|5|2|1|2|3|32|
+K. Lowry|36:14|2-9|2-2|1-5|+11|0|6|9|0|1|3|5|7|
+D. Green|29:41|4-9|0-0|3-7|+2|1|2|1|2|1|0|1|11|
+F. VanVleet|33:06|5-8|4-6|1-4|+11|0|1|2|0|0|1|3|15|
+S. Ibaka|17:03|2-7|1-2|0-2|-1|2|3|1|1|0|2|3|5|
+P. McCaw|6:50|1-2|0-0|1-1|-3|0|0|1|0|0|0|0|3|
+N. Powell|4:35|0-1|2-2|0-1|+2|0|1|0|0|0|0|2|2|
+O. Anunoby|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+J. Loyd|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+M. Miller|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+C. Boucher|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+J. Lin|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+J. Meeks|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+E. Moreland|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+Totals|240|39-77(.506)|27-32(.844)|13-33(.394)|-|7|36|25|6|6|10|26|118|
+
+||
+|:-:|
+|^[nbaboxscoregenerator.com](http://www.nbaboxscoregenerator.com) ^by ^/u/Obi-Wan_Ginobili|",analysis,
+"I made a flowchart to help everyone find a playoff bandwagon to hop on, even for the most casual basketball fan!",analysis,
+"Giannis Antetokounmpo is the 2019 NBA Most Valuable Player [Source](https://twitter.com/BenGolliver/status/1143357239308120065): 
+
+&gt;**The 2019 NBA MVP is, officially, Bucks forward Giannis Antetokounmpo.**
+
+&gt;**- East all-star captain, unanimous all-nba first team, all-defensive first team**
+
+&gt;**- First Bucks winner since Kareem Abdul-Jabbar in 1971.**
+
+---
+
+This capped off a historic and truly international awards class. Giannis Antetokounmpo (Greece) joined Defensive Player of the Year Rudy Gobert (France), Rookie of the Year Luka Doncic (Slovenia) and Most Improved Player Pascal Siakam (Cameroon) as foreign-born winners of major awards tonight.",analysis,
+"Bad officiating calls in Warriors-Rockets G7 Strap in boys, it's gonna be a ride. So I've basically reviewed the whole game last night, and here are the questionable plays which I thought should have been calls/were called wrongly.
+
+#Calls going against Rockets:
+
+1. [Wrong travelling call against Capela](https://streamable.com/cso98), didn't lift up his pivot foot.
+
+2. [Slight push on PJ Tucker no call, KD gets the call on the other end](https://streamable.com/boqtv). Probably a superstar call.
+
+3. [Harden might have gotten shoved in the back by Looney](https://streamable.com/7189z), no call.
+
+4. [Capela called for a goaltend for what seemed to be a clean block](https://streamable.com/qtz8u).
+
+5. [Harden fouled on the landing](https://streamable.com/4d9r6), no call. [Slowmo](https://streamable.com/s06jh)
+
+6. [Harden fouled on three attempt](https://streamable.com/bzjys), no call. [Slowmo](https://streamable.com/alpcm)
+
+7. [Ref disallows continuation on Harden's three](https://streamable.com/vhads). [Slowmo](https://streamable.com/lydp2)
+
+8. [Eric Gordon fouled by Draymond](https://streamable.com/zynw6), no call.
+
+#Calls going against Warriors:
+
+1. [Klay gets called for an early 2nd foul which didn't look like much contact](https://streamable.com/e0s94), looked like ball just slipped out of EG's hands.
+
+2. [Curry's hip gets pushed by Gerald Green](https://streamable.com/o4nk6), even falls on the ground. No call.
+
+3. [Jordan Bell raked across the arm by Harden](https://streamable.com/s2n6m), no call. (pro tip: right click and select 1/4 speed to see the contact)
+
+4. [Klay gets hand checked by Tucker and loses the ball](https://streamable.com/pqylu). No call. [Slowmo](https://streamable.com/j8f9c)
+
+5. [KD gets pushed into Harden by Ryan Anderson](https://streamable.com/n27zm), foul on KD. Similar to [this play](https://streamable.com/nhcep), albeit less egregious by Anderson.
+
+6. [Klay gets a point removed by Scott Foster](https://streamable.com/0nhtk).
+
+A major theme which showed itself was the fact that Ryan Anderson literally (I'm not kidding) hand checked Curry every time he was switched onto him. And the Warriors forced that switch A LOT. Here's ALL the plays where Anderson guarded Curry:
+
+https://streamable.com/el34r
+
+https://streamable.com/vtmzu
+
+https://streamable.com/uv829
+
+https://streamable.com/9fqlg
+
+https://streamable.com/junss
+
+https://streamable.com/2peej
+
+https://streamable.com/53mhy
+
+https://streamable.com/cuojo
+
+https://streamable.com/07r5o
+
+Bonus Harden trying to draw foul when there was none &amp; just looking like a fool:
+
+https://streamable.com/ca5v5
+
+https://streamable.com/jffyc
+
+Oh and, inb4 Rockets fans accuse me of bias again, and calling me a Warriors fan. Would a Warrior fan post these?
+
+https://www.reddit.com/r/nba/comments/8lyh34/ariza_gets_called_for_a_blocking_foul_on_durant/
+
+https://www.reddit.com/r/nba/comments/8ly16n/curry_draws_3_free_throws_from_capela/
+
+https://www.reddit.com/r/nba/comments/8lfvoo/draymond_going_back_to_his_bad_habits/
+
+The entire game is freely available online, if you're so angry why don't you make your own compilation? And u/unklebuckets, still waiting for [your refs lowlights thread](https://www.reddit.com/r/nba/comments/8mf8tv/post_game_thread_the_golden_state_warriors_33/dzn4mpy/?context=3), or any of the 1+ million subscribers to make one.
+
+Edit: [Summary of the night](https://i.imgur.com/fHlyNne.jpg) lol. Credits to u/wetjumpshot",analysis,
+"[Post Game Thread] The Toronto Raptors (3-1) defeat the Golden State Warriors (1-3), 105-92, can close out series at home **[](/TOR) TOR**|**Min**|**FG**|**FT**|**3PT**|**+/-**|**OR**|**Reb**|**A**|**Blk**|**Stl**|**TO**|**PF**|**Pts**|
+|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+M. Gasol|27:49|3-8|2-2|1-4|+1|2|7|3|0|1|1|2|9|
+P. Siakam|41:20|6-14|7-8|0-2|+5|1|5|1|1|0|1|0|19|
+K. Leonard|40:34|11-21|9-9|5-9|+11|0|11|2|1|4|0|4|36|
+K. Lowry|37:18|3-12|4-4|0-4|+5|0|2|7|0|3|2|4|10|
+D. Green|29:44|1-8|0-0|1-7|+11|1|3|1|0|3|2|5|3|
+F. VanVleet|28:56|3-9|0-0|2-5|+10|0|4|6|0|0|2|1|8|
+S. Ibaka|21:43|9-12|1-1|1-1|+9|1|4|1|2|0|1|5|20|
+N. Powell|10:42|0-1|0-0|0-0|+6|0|1|1|0|1|0|0|0|
+P. McCaw|1:54|0-0|0-0|0-0|-3|0|0|0|0|0|0|0|0|
+O. Anunoby|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+J. Loyd|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+M. Miller|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+C. Boucher|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+J. Lin|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+J. Meeks|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+E. Moreland|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+Totals|240|36-85(.424)|23-24(.958)|10-32(.313)|-|5|37|22|4|12|9|21|105|
+
+**[](/GSW) GSW**|**Min**|**FG**|**FT**|**3PT**|**+/-**|**OR**|**Reb**|**A**|**Blk**|**Stl**|**TO**|**PF**|**Pts**|
+|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+D. Cousins|14:50|3-6|0-1|0-0|-4|1|4|1|1|0|4|2|6|
+S. Curry|42:59|9-22|7-8|2-9|-9|0|4|6|0|1|3|4|27|
+K. Thompson|42:10|11-18|0-0|6-11|-5|1|3|2|0|0|0|3|28|
+D. Green|40:34|3-6|4-4|0-1|-11|0|9|12|2|1|5|4|10|
+A. Iguodala|37:57|1-6|1-2|0-3|-4|0|4|3|2|3|2|3|3|
+K. Looney|20:24|5-8|0-2|0-0|-6|3|6|1|0|0|1|2|10|
+S. Livingston|15:11|2-3|2-2|0-0|-12|1|3|1|0|1|1|0|6|
+A. Bogut|10:45|0-0|0-0|0-0|+6|1|6|0|0|0|1|2|0|
+A. McKinnie|8:30|1-4|0-2|0-1|-4|1|2|0|0|0|0|3|2|
+Q. Cook|6:40|0-5|0-0|0-3|-6|0|1|0|0|0|0|0|0|
+M. Derrickson|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+D. Jones|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+J. Bell|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+D. Lee|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+J. Jerebko|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+K. Durant|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+J. Evans III|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+Totals|240|35-78(.449)|14-21(.667)|8-28(.286)|-|8|42|26|5|6|17|23|92|
+
+||
+|:-:|
+|^[nbaboxscoregenerator.com](http://www.nbaboxscoregenerator.com) ^by ^/u/Obi-Wan_Ginobili|",analysis,
+"Reddit users spent a total of $227.26 on gilding r/nba's #1 top post, ""Paul Pierce admits shitting his pants"" As of today, the thread ""Paul Pierce admits shitting his pants"" has: 8 Platinum, 10 Most Valuable, 17 Gold, 5 Quality OC, 37 Historic Highlight, 32 Crying MJ, 6 Apt Analysis, and 52 Silver.
+
+This equates to 57,100 Reddit Coins, or $227.26. This does not take into account bulk purchasing.",analysis,
+"James Harden has the first ever 60 point triple double in NBA history Harden has ended the game with 60 points, 10 rebounds, 11 assists, 4 steals, and 1 block. 19-30 FG, 5-14 from 3, and 17-18 FT. Only 5 turnovers in his 46 minutes of play
+
+Edit: He topped Westbrook's 57 triple double for most points in a triple double. Harden's previous high for points in a triple double was 53",analysis,
+"In H.S, Jeremy Lin had a 4.2 GPA, averaged 15/7/6 and 5 steals, made first-team all state and won a California State Championship. He was offered zero athletic scholarships. His team defeated nationally ranked Mater Dei, the [#2 nationally ranked High School athletic program](https://en.m.wikipedia.org/wiki/Mater_Dei_High_School_(Santa_Ana,_California), to win the CIF title after 23 consecutive wins for Mater Dei.
+ 
+Lin was the North Cali division 2 player of the year, and first team all California is a huge deal. 
+
+He sent his Resume and DVD to several schools including UCLA, Stanford, UC Berkeley, and Arizona State.
+
+His academic achievements eventually got him into Harvard, where the basketball coach was hesitant to give him a role until he saw him play. 
+
+His senior year, he was a nominee for both the John Wooden award and the Bob Cousy award. 
+
+He went undrafted.",analysis,
+"Next time a fan/owner/media cries about loyalty. Look at what happened to Avery Bradley today. Dude did everything to be loyal to Boston.  Played his heart out. Never complained. Was a true professional.
+
+Then he gets traded to Detroit.
+
+Loyalty?  There is no loyalty in the NBA.  Just mutually beneficial relationships.  When a player/owner/team can get into a better situation they will do it, loyalty damned.
+
+So next time a Free Agent leaves a team, don't blame them. Owners are disloyal constantly. Yet is anyone in the media saying the Celtics are disloyal? Hell no.  The double standard is ridiculous.",analysis,
+"ESPN is misquoting its own reporter Brian Windhorst in the video title for the sake of getting more views. Amazing professional journalism. Brian Windhorst says: ""I kinda feel like judging the Lakers moves right now is still a little half-baked, so to speak, because we really don't know what they're gonna be [...]""
+
+ESPN names the video: ""Windhorst: Lakers' moves after signing LeBron James are 'a little half-baked' | First Take | ESPN""
+
+Seriously?! FOH. I clicked on the video to hear his analysis and not because of the title and get this gem of a clickbait title.
+
+I just wanted to try to get to the top so a little exposure on their conduct can be shown. I'm not putting the link for the video, obviously.",analysis,
+"Pop has the most total wins as a head coach with 1,413. Here's his reaction after he got the first one, on December 14, 1996.",analysis,
+"Rachel Nichols and the ESPN crew were extremely disrespectful last night I’m not sure if this has been posted by someone already, but I just wanted to say that the things they let Rachel Nichols and Woj say during the draft lottery were blatantly disrespectful to all of the teams, save for maybe the Knicks, to all of the other draft picks, and to the Pelicans. Not to mention the fact that everything they were saying was being blasted throughout the entire venue. 
+
+First off, there were over a dozen teams in attendance last night. The only one that they chose to talk about: the Knicks. They talked unbelievably liberally about Zion going to NY, as if they had already won it. However, as I doubt any of them realized, the Knicks had the same chance of obtaining the #1 pick as the Cavs and the Suns, the latter of which I don’t even think was mentioned once on the broadcast.
+
+Then, there was Zion. Rachel Nichols kept referring to the #1 pick as “who gets Zion.” Every time she said that or mentioned the kid, the camera would cut to the embarrassed 18 y/o who was just there to see what team picks where. There is no guarantee that Zion will go #1 overall. It is very very likely, but not guaranteed. Not to mention that they did this in front of a large number of draft prospects in attendance. What does all of this coverage and press mean to them if it’s only going to Zion?
+
+And finally, the Pelicans. Woj made every team’s case for a possible AD trade that night. Whenever a team with chances of getting a top 10 pick was mentioned, Woj had to slip in that they may be looking to use that pick as an “asset” to trade for AD. I’m honestly very happy the Pelicans won because the disrespect they were receiving the whole night was greatly trumped when they won the first pick.
+
+Now I get all of these things are said ten times over on any other sports news broadcast. However, as I said, Rachel Nichols audio was blasted for everyone at the event to hear, including the draft prospects and team representatives. After watching this, I asked my dad if there was ever a time where the media would be able to speak this liberally about sports in front of all of those people. He said “no.”
+
+EDIT: Apparently, there are rumors circulating that Rachel Nichols was drunk. Honestly...that’s not surprising",analysis,
+High school students discover owner of TD Garden has skipped out on holding 70+ youth fundraisers (required legally as part of the deal authorizing construction of the arena),analysis,
+"LeBron James passes Michael Jordan to become the All-Time Playoff Scoring Leader * **1. LeBron James - 5995**
+* 2. Michael Jordan - 5987
+* 3. Kareem Abdul-Jabbar - 5762
+* 4. Kobe Bryant - 5640
+* 5. Shaquille O'Neal - 5250
+* 6. Tim Duncan - 5172
+* 7. Karl Malone - 4761
+* 8. Jerry West - 4457
+* 9. Tony Parker - 4012
+* 10. Larry Bird - 3897",analysis,
+"Russell Westbrook makes history and has clinched a Triple-Double average on the season, making him the only player to average a Triple-Double for 2 seasons and doing so consecutively at that. Russell Westbrook needed 16 rebounds in tonight's game against the Grizzlies to clinch the Triple-Double average on the season and has grabbed 16 boards and counting to achieve this historical feat. 
+
+Last season, he joined Oscar Robertson as the only players to average a Triple-Double for a season. He now surpasses Oscar, becoming the only player to average a Triple-Double for 2 seasons, and has done so consecutively.  
+
+&amp;nbsp;",analysis,
+"[Post Game Thread] The Golden State Warriors defeat the Cleveland Cavaliers, 129-120, to win the 2017 NBA Championship in 5 games. Box Scores: [ballislife.io](http://ballislife.io/game/20170612/0041600405) | [boxscoreandmore.com](https://www.boxscoreandmore.com/#/boxscore/0041600405/game) 
+
+
+**[](/CLE) CLE**|**Min**|**FG**|**FT**|**3PT**|**+/-**|**OR**|**Reb**|**A**|**Blk**|**Stl**|**TO**|**PF**|**Pts**|
+|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+T. Thompson|29:52|6-8|3-4|0-0|-7|4|8|3|1|1|3|1|15|
+L. James|46:13|19-30|1-4|2-5|-13|2|13|8|1|2|3|3|41|
+K. Irving|41:47|9-22|7-7|1-2|+4|1|2|6|0|2|4|3|26|
+J.R. Smith|40:49|9-11|0-1|7-8|-2|0|3|1|2|0|0|2|25|
+K. Love|29:55|2-8|2-5|0-3|-23|3|10|2|1|0|0|2|6|
+K. Korver|17:48|1-3|0-0|1-2|0|0|0|0|0|0|0|3|3|
+R. Jefferson|17:27|1-3|2-2|0-1|+3|2|2|0|0|0|1|4|4|
+D. Williams|12:24|0-2|0-0|0-2|+2|0|2|2|0|1|2|1|0|
+I. Shumpert|3:45|0-1|0-0|0-1|-9|0|0|0|0|0|1|3|0|
+D. Jones|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+J. Jones|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+D. Williams|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+C. Frye|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+E. Tavares||||||||||||||
+K. Felder||||||||||||||
+Totals|240|47-88(.534)|15-23(.652)|11-24(.458)|-|12|40|22|5|6|14|22|120|
+
+**[](/GSW) GSW**|**Min**|**FG**|**FT**|**3PT**|**+/-**|**OR**|**Reb**|**A**|**Blk**|**Stl**|**TO**|**PF**|**Pts**|
+|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+Z. Pachulia|9:53|0-1|0-0|0-0|-9|3|3|1|0|0|2|4|0|
+D. Green|43:43|3-10|2-4|2-5|+19|3|12|5|0|2|0|4|10|
+S. Curry|40:48|10-20|12-15|2-9|+3|2|6|10|0|3|4|3|34|
+K. Durant|40:15|14-20|6-6|5-8|+18|1|7|5|0|1|4|3|39|
+K. Thompson|34:05|4-13|0-0|3-7|-6|1|5|2|1|1|0|4|11|
+A. Iguodala|38:07|9-14|0-0|2-7|+18|1|3|3|0|0|1|1|20|
+P. McCaw|11:32|2-5|2-2|0-2|-3|2|3|1|0|1|1|2|6|
+D. West|10:31|2-4|0-0|0-0|+16|0|3|0|1|0|1|1|4|
+S. Livingston|10:02|2-3|1-1|0-0|-6|0|0|0|0|0|0|2|5|
+M. Barnes|1:04|0-0|0-0|0-0|-5|0|0|0|0|0|0|0|0|
+I. Clark|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+J. McAdoo|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+J. McGee|0:00|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+K. Looney||||||||||||||
+D. Jones||||||||||||||
+Totals|240|46-90(.511)|23-28(.821)|14-38(.368)|-|13|42|27|2|8|13|24|129|
+
+||
+|:-:|
+|^[nbaboxscoregenerator.com](http://www.nbaboxscoregenerator.com) ^by ^/u/Obi-Wan_Ginobili|",analysis,
+"Is it 2018 or 2008? Lebron James is averaging 27.4/8.6/9.1
+
+Mike D’Antoni is coaching one of the greatest offenses the league has ever seen
+
+Dwight Howard just put up a 30/30 game
+
+The Wizards are making the playoffs despite missing their star PG for a significant portion of the season
+
+Emeka Okafor is the starting center for a playoff team
+
+New Orleans’ young star player could finish as high as 2nd in MVP voting
+
+Dirk Nowitzki is shooting a career high 42.9% from 3
+
+The Knicks suck",analysis,
+"Devin Booker Finishes with 70 Points, 2nd Most Ever in a Loss in NBA History Most ever was David Thompson with 73 against Detroit in '78. Dude was out of his mind.
+
+Edit: Finished 21-40 FG, 24-26 FT, 4-11 from 3 with 8 boards and 6 assists. Just incredible. 
+
+Edit 2: Wilt apparently had 78, 72 and 70 in losses, making Booker tied for 4th all time, my bad. Thanks to u/22every-day for pointing that out.
+
+[source](http://www.basketball-reference.com/play-index/pgl_finder.cgi?request=1&amp;match=game&amp;is_playoffs=N&amp;game_result=L&amp;age_min=0&amp;age_max=99&amp;pos_is_g=Y&amp;pos_is_gf=Y&amp;pos_is_f=Y&amp;pos_is_fg=Y&amp;pos_is_fc=Y&amp;pos_is_c=Y&amp;pos_is_cf=Y&amp;c1stat=pts&amp;c1comp=gt&amp;c1val=60&amp;order_by=pts)",analysis,
+"Game 7 Disappointments: Over the last 12 game 7s, 10 of them have been decided by double digits. Half have been decided by 20+. The average margin of victory has been 19.5. 
+**2022**
+
+Celtics defeat Bucks 109-81
+
+Mavs defeat Suns 123-90
+
+Celtics defeat Heat 100-96
+
+**2023**
+
+Warriors defeat Kings 120 - 100
+
+Celtics defeat Sixers 112-88
+
+Heat defeat Celtics 102-84
+
+**2024**
+
+Cavs defeat Magic 106-94
+
+Pacers defeat Knicks 130-109
+
+Wolves defeat Nuggets 98-90
+
+**2025**
+
+Nuggets defeat Clippers 120-101
+
+Warriors defeat Rockets 103-89
+
+Thunder defeat Nuggets 125 - 93
+
+
+Are the 2 best words in sports really ""Game 7""?",analysis,
+"Playoff history: Thunder - Timberwolves Games record*: OKC leads 3-2
+
+Series record*: OKC leada 1-0
+
+*Including Seattle
+
+Last meeting: 1998 1st round - SEA won 3-2
+
+Leading scorers: Gary Payton (SEA, 26.0), Anthony Peeler (MIN, 16.2), Hersey Hawkins (SEA, 15.8), Kevin Garnett (MIN, 15.8), Terry Porter (MIN, 15.8)
+
+The #2 Sonics advanced to the WCSF and were eliminated in 5 games to young Shaq and sophomore Kobe's Lakers.
+
+The Thunder will now try to advance to their 1st finals appearance since 2012, but in their way will be Anthony Edwards and the Timberwolves who will try to make up for last year and advance to their 1st ever finals berth.
+
+Who ya got?",analysis,
+"Is Aaron Gordon right, should there be more rest between playoff games? His suggestion was at least 2 days off in between games.
+
+Personally I agree, I think you’d get better quality games, less injuries and overall better product.
+
+The way it is now it rewards the deepest stacked teams like OKC, Celtics, ect because they can cycle through more bench guys
+
+This causes the teams who don’t have that option to play their starters even more minutes, like how JJ did with the Lakers playing the entire second half. They only had 1 dat off and the next game was also an afternoon one. A game later both Lebron and Luka got injured, coincidence or a product of the short time off and minutes played?",analysis,
+"Why the WCF starts before the ECF? I just checked the schedule and I noticed that MIN vs OKC will begin Tuesday, giving OKC only one day of rest.
+ 
+In the meantime, eastern teams last played on Friday and their conference finals will begin Wednesday, giving NYK 4 days of rest.
+
+It would have made much more sense to swap the days and begin with the ECF, what happened?",analysis,
+"Remaining Teams by Salary T-Wolves : 237,156,897 (1st in league)  
+OKC: 165,034,408 (26th in league)  
+Pacers: 171,032,577 (21st in league)  
+Knicks: 188,877,651 (9th in league)
+
+OKC can hold on to this core for a while, and they got cap space. Pacers will probably have to pay Turner. Knicks have their starting line up locked for the next 3 years. Naz has his PO next year, which I think hes gonna wanna cash that check, Minnie is maxed out on salary, which is insane to think, Rudy is mad paid.",analysis,
+"NBA title favorites according to ESPN BPI: 1. Thunder (62.9%), 2. Pacers (16.8%), 3. Knicks (12.9%), 4. Timberwolves (7.3%) The Thunder also have an 81.9% chance to reach the finals, followed by the Pacers (53.1%), Knicks (46.9%), and Timberwolves (18.1%)
+
+[Source: NBA Basketball Power Index 2024-25](https://www.espn.com/nba/bpi/_/view/playoffs/sort/playoffs.probwintitle/dir/desc)",analysis,
+"[Stein]The Bucks, league sources say, remain hopeful Giannis Antetokounmpo will decide against asking to be dealt after a third successive first-round playoff exit and choose instead to extend a career that has spanned 12 seasons as a Buck to date. >The Bucks, league sources say, remain hopeful Giannis Antetokounmpo will decide against asking to be dealt after a third successive first-round playoff exit and choose instead to extend a career that has spanned 12 seasons as a Buck to date. Anticipation around the league regarding Antetokounmpo’s availability via trade, meanwhile, continues to bubble based on the belief that it is only a matter of time before the 30-year-old finally concedes that a contender can no longer be built around him in Brewtown and that what Milwaukee is feeling is false hope.
+
+https://marcstein.substack.com/p/sunday-best-all-the-latest-nba-trade-419",analysis,
+"Nikola Jokic 2025 NBA Playoffs stats (14 games) - 26.2 PPG on 48.9/38.0/77.2 splits, 12.7 Rebounds, 8.0 Assists (3.9 TOV), 2.0 Steals, 0.9 Blocks, and a +/- of -8 in 40.2 minutes played [Source](https://www.nba.com/stats/player/203999/traditional?PerMode=PerGame)
+
+Full traditional stat:
+
+  
+Nikola Jokic 2025 NBA Playoffs stats (14 games):
+
+26.2 PPG on 48.9% FG (19.1 FGA), 38.0% 3PT (5.1 3PA), 77.2% FT (7.2 FTA), 12.7 Rebounds (2.1 Off. Rebs), 8.0 Assists (3.9 TOV), 2.0 Steals, 0.9 Blocks, 3.4 PF, and a +/- of -8 in 40.2 minutes played.
+
+11 double-double
+
+3 triple-double
+
+In the series against the Clippers (7 GP):
+
+24.0 PPG on 50% FG (18.3 FGA), 45.2% 3PT (4.4 3PA), 70.3% FT (5.3 FTA), 11.6 Rebounds (1.6 Off. Rebs) 10.1 Assists (3.4 TOV), 2.3 Steals, 0.9 Blocks, 2.9 PF, and a +/- of +4.1 in 40.0 minutes played
+
+In the series against OKC (7 GP):
+
+28.4 PPG on 47.9% FG (20.0 FGA), 32.5% 3PT (5.7 3PA), 81.3% FT (9.1 FTA), 13.9 Rebounds (2.6 Off Rebs), 5.9 Assists (4.4 TOV), 1.7 Steals, 0.9 Blocks, 4.0 PF, and a +/- of -5.7 in 40.4 minutes played.
+
+5 Double-Double
+
+2024-25 regular-season stats (70 GP):
+
+29.6 PPG on 57.6% FG (19.5 FGA), 41.7% 3PT (4.7 3PA), 80.0% FT (6.4 FTA), 12.7 Rebounds (2.9 Off. Rebs), 10.2 Assists (3.3 TOV), 1.8 Steals, 0.6 Blocks, 2.3 PF, and a +/- of +8.5 in 36.7 minutes played
+
+59 Double-Double
+
+34 Triple-Double",analysis,
+"For each of the 2019-2024 champs, not one of them has made it back to the conference finals after winning their ring, except for the lakers (2023) Also warriors and Celtics are the only teams since 2019 to have more than one finals appearance. (2 each)",analysis,
+"Free Throws Attempted in the 2025 Western Conference Semifinals: Shai Gilgeous-Alexander 63, Nikola Jokic 64 SGA:
+
+Game 1: 7/9 FTs
+
+Game 2: 11/11 FTs
+
+Game 3: 3/5 FTs
+
+Game 4: 9/12 FTs
+
+Game 5: 6/6 FTs
+
+Game 6: 8/11 FTs
+
+Game 7: 8/9 FTs
+
+Jokic:
+
+Game 1: 10/13 FTs
+
+Game 2: 3/5 FTs
+
+Game 3: 4/4 FTs
+
+Game 4: 11/14 FTs
+
+Game 5: 5/5 FTs
+
+Game 6: 10/12 FTs
+
+Game 7: 9/11 FTS",analysis,
+"The seven different NBA champions of the parity era reflect the seven deadly sins We have reached an unprecedented time in NBA history where we will have seven different champions in a row. For an organization whose history is shaped by dynasties and basketball empires, this is a gigantic shift. Each new champion has had a folly that has kept them from repeating as champions.
+
+I believe every one of the defending champions have showcased one of the seven deadly sins in why they didn’t go back-to-back.
+
+Toronto Raptors - Envy
+
+City and franchise desperately wanted their MVP player Kawhi Leonard back. He obviously chose Los Angeles, leaving the fans and team alike envious of their former centerpiece player. Even to this day as they transition into a new, fun era with exciting players that they wonder what if Leonard never left them.
+
+Los Angeles Lakers - Greed
+
+This is straightforward. Lakers had an amazing title winning team and then wanted more, messing up their stellar bench and defensive mentality that helped them win in the Bubble. This then continued a year after where they got even greedier by trading their entire depth away for Russell Westbrook.
+
+Milwaukee Bucks - Gluttony 
+
+Giannis famously went through a Chikfila drive through the day after winning the championship to eat 50 nuggets on livestream. It all went down from there.
+
+Golden State Warriors - Wrath
+
+Draymond punched out his own teammate Jordan Poole in practice and it all went crashing down from there. He is a very wrathful fella.
+
+Denver Nuggets - Sloth 
+
+They won the title and then went into sloth mode, throwing out big time contracts to players that have hurt them ever since. GM and coach were ousted after failing to repeat last year and before this season‘s playoffs. 
+
+Boston Celtics - Pride
+
+A team that was outwardly confident the entire season. Their pride saw them drop two straight 20 point leads before falling apart in game four with the loss of their star player Tatum. 
+
+Pacers/Knicks/Wolves/Thunder - Lust
+
+ Based off my theory, the next champion will succumb to lust in the 2025-26 season.",analysis,
+"NBA Conference Finals Predictions | West CF: MIN v. OKC | Analysis Chat 
+## Series Breakdown: OKC vs. MIN — My Take
+
+**Boys**, I wanna hear some analysis on this series, here’s my take:
+
+---
+
+### My Prediction  
+**OKC defeats MIN in 6 games.**
+
+I personally think Denver was a tougher matchup for OKC. Simply put: Jokic can stretch the defense and dominate the paint against almost anyone (except maybe Hartenstein). Aaron Gordon also presents matchup problems with his interior presence and physicality. That said, I think the length, depth, and athleticism of the Timberwolves could pose a different kind of challenge. I'm genuinely curious to hear other people's takeaways from watching their previous matchups — what stood out to you?
+
+Both OKC and MIN showed similar styles in their respective Game 7 wins over Denver. They applied constant pressure on defense, forced turnovers, got out in transition, and wore the Nuggets down with intensity and tempo.
+
+Honestly, I think the NBA is starting to feel more like the NHL — younger teams are peaking sooner, and the pace and space era makes it tougher for older, more methodical teams to keep up. Let me know if that sounds crazy to you, but that’s just how I see it.
+
+---
+
+### Regular Season Matchups  
+Here’s what I found from the 2025 head-to-heads:
+
+- **Feb 13** – OKC @ MIN: OKC lost 101–116  
+- **Feb 23** – OKC @ MIN: OKC won 130–123  
+- **Feb 24** – MIN @ OKC: MIN won 131–128  
+- **Dec 31** – MIN @ OKC: OKC won 113–105  
+
+Series tied 2–2 in the regular season.
+
+### Inactive Players by Game
+
+#### **24-Feb**
+> *No Gobert, no Randle, no DiVincenzo*
+
+- **Timberwolves**:  
+  - Donte DiVincenzo  
+  - Rudy Gobert  
+  - Julius Randle  
+- **Thunder**:  
+  - Branden Carlson  
+  - Chet Holmgren  
+  - Ajay Mitchell  
+  - Nikola Topic
+
+---
+
+#### **23-Feb**
+
+- **Thunder**:  
+  - Branden Carlson  
+  - Adam Flagler  
+  - Ajay Mitchell  
+  - Nikola Topic  
+- **Timberwolves**:  
+  - Donte DiVincenzo  
+  - Rudy Gobert  
+  - Julius Randle  
+
+---
+
+#### **13-Feb**
+
+- **Thunder**:  
+  - Branden Carlson  
+  - Alex Caruso  
+  - Ousmane Dieng  
+  - Ajay Mitchell  
+  - Nikola Topic  
+  - Cason Wallace  
+- **Timberwolves**:  
+  - Mike Conley  
+  - Donte DiVincenzo  
+  - Jesse Edwards  
+  - Rudy Gobert  
+  - Julius Randle  
+
+---
+
+#### **31-Dec**
+
+- **Timberwolves**:  
+  - Jaylen Clark  
+  - Rob Dillingham  
+  - Jesse Edwards  
+  - Luka Garza  
+- **Thunder**:  
+  - Alex Caruso  
+  - Alex Ducas  
+  - Adam Flagler  
+  - Chet Holmgren  
+  - Nikola Topic  
+
+---
+
+### Roster & Stat Analysis
+
+#### **Minnesota Timberwolves**
+- Better in **clutch games**
+- Slightly **older and more experienced**
+- Tougher **strength of schedule**
+- Higher **FT/FGA** → attacks the rim more
+- Slightly better **offensive rebound %**
+- Shoots ~**1.5 more threes per game** at a **1% higher 3P%**
+- Better at **avoiding fouls** in the paint
+- Better **defensive rebounding %**
+- **Past Defensive star power**: Rudy Gobert (4.81 DPOY shares)
+- **Depth advantage**: 6MOY Naz Reid adds floor spacing
+
+#### **Oklahoma City Thunder**
+- Better **overall record**
+- **Best SRS** in the NBA this season
+- **74% win rate vs. .500+ teams** (vs. MIN’s 48%)
+- More **MVP-level star power**:  
+  - Shai Gilgeous-Alexander: 0.69 MVP shares  
+  - Anthony Edwards: 0.02 MVP shares
+- #1 in almost **every defensive category**:
+  - Defensive eFG%
+  - Turnovers forced
+  - Opponent 3P%
+  - Point differential
+- Best team at **not turning the ball over**
+
+---
+
+### 4 RS Matchup | Four Factors Comparison
+
+| Team | Pace   | eFG%   | TOV%  | ORB%  | FT/FGA | ORtg   |
+|------|--------|--------|-------|-------|--------|--------|
+| MIN  | 97.825 | 0.5283 | 13.05 | 29.4  | 0.252  | 118.3  |
+| OKC  | 97.825 | 0.5408 | 10.15 | 23.5  | 0.2023 | 117.475 |
+
+---
+
+The Wolves actually out-scored OKC overall in their 4 game matchups, but also lost in the most important category eFG%, by quite a bit. ORB% and FT/FGA are more hustle and effort stats, so I think let me know what yall think
+
+Let me know if I should do this NYK vs. IND as well. Thanks brothas.",analysis,
+"Nikola Jokic in the second half of game 7:                                              3 points on 1/1 FG, 3 rebounds, 4 assists, 2 turnovers, -17 plus/minus It was a 14 point game at halftime and Jokic completely disappeared, taking only 1 shot the rest of the game
+
+
+https://www.statmuse.com/nba/ask/jokic-stats-in-the-second-half-of-game-7-vs-thunder",analysis,
+"2025 West finals is the first West finals since 1996 where neither team is a California team or a Texas team. Since 1980, there have been only five West finals where neither team was neither a California team or a Texas team.
+
+1990: Portland Trailblazers defeat Phoenix Suns in 6 to earn their first Finals appearance since 1977.
+
+1992: Portland Trailblazers defeat Utah Jazz in 6.
+
+1993: Phoenix Suns defeat Seattle Supersonics in 6 to earn their first Finals appearance since 1976.
+
+1996: Seattle Supersonics defeat Utah Jazz in 7 to earn their first Finals appearance since 1979.
+
+2025: Oklahoma City vs. Minnesota Timberwolves
+
+From 1980-2024, there have been only 9 West champions that were not a California team or a Texas team.
+
+1990, 1992: Portland Trailblazers
+
+1993, 2021: Phoenix Suns
+
+1996: Seattle Supersonics
+
+1997, 1998: Utah Jazz
+
+2012: Oklahoma City Thunder
+
+2023: Denver Nuggets
+
+Of these 9 West champions, 2023 Denver Nuggets were the only one to win the NBA Championship.",analysis,
+[Murray] Thunder had 74 steals in this series. That's the most in a NBA series in the last 30 years of NBA postseason.,analysis,
+"Last Conference Finals Appearance as of Today Current teams
+
+2025 - Oklahoma City Thunder, Minnesota Timberwolves, New York Knicks, Indiana Pacers
+
+2024 - Dallas Mavericks, Boston Celtics
+
+2023 - Denver Nuggets, Los Angeles Lakers, Miami Heat
+
+2022 - Golden State Warriors
+
+2021 - Phoenix Suns, Los Angeles Clippers, Milwaukee Bucks, Atlanta Hawks
+
+2019 - Portland Trailblazers, Toronto Raptors
+
+2018 - Houston Rockets, Cleveland Cavaliers
+
+2017 - San Antonio Spurs
+
+2013 - Memphis Grizzlies
+
+2011 - Chicago Bulls
+
+2010 - Orlando Magic
+
+2008 - Detroit Pistons
+
+2007 - Utah Jazz
+
+2002 - Sacramento Kings
+
+2001 - Philadelphia 76ers
+
+Never - Charlotte Hornets, New Orleans Pelicans
+
+Former teams
+
+2003 - New Jersey Nets (now Brooklyn Nets)
+
+1979 - Washington Bullets (now Washington Wizards)",analysis,
+"In 21st century, there are only two seasons where the west only have two 50-win teams: 2022-2023 season and 2017-2018 season. However in 2017-2018 season, 46 wins will get you 9th seed, while in 2022-2023 season that will get you 4th seed. Is 2022-2023 season the worst west field in this century? That seasons record:
+
+1. Nuggets 53-29
+
+2. Grizzlies 51-31
+
+3. Kings 48-34
+
+4. Suns 45-37
+
+5. Clippers 44-38
+
+6. Warriors 44-38
+
+7. Lakers 43-39
+
+8. Timberwolves 42-40
+
+Source: [https://www.nba.com/standings?Season=2022-23](https://www.nba.com/standings?Season=2022-23)",analysis,
+"Jokic attempted more FT this series than SGA Jokic, who is commonly seen as someone who never gets free throws, shot more fta than a guy with a foul baiting reputation. Why is no one talking about this?
+
+Jokic: 13+5+4+14+5+12+11 =64 
+Shai 9+11+5+12+6+11+9 =63",analysis,
+"The Thunder-Nuggets series had the second largest point differential between 2 teams in a 7-game series ever, (OKC: +64) behind only Boston vs. Atlanta in 2008 (BOS: +84) Game 1: OKC -2
+
+Game 2: OKC +43
+
+Game 3: OKC -9
+
+Game 4: OKC +5
+
+Game 5: OKC +7
+
+Game 6: OKC -12
+
+Game 7: OKC +32
+
+Total: OKC +64
+
+This trails only Boston in 2008 who played the Hawks in the First Round in a series that somehow went 7 games. Those Celtics went on to win the championship.
+
+Source: [Stathead](https://stathead.com/basketball/team-span-finder.cgi?request=1&amp;order_by=diff_pts&amp;timeframe=seasons&amp;comp_type=post&amp;round_id=c1&amp;best_of=7&amp;span_length=7&amp;single_season=1&amp;ccomp%5B1%5D=gt&amp;cval%5B1%5D=64&amp;cstat%5B1%5D=diff_pts)",analysis,
+"There has not been an NBA Finals between 2 teams who have not won a championship since 1978 With 3 of the 4 teams in the conference finals having yet to win it all, I was curious how long it’s been since we’ve had a matchup of ringless franchises. Surprised to find out it’s been almost **50 years.** This as we all remember was the 7-game clash between the Seattle SuperSonics and the Washington Bullets, with Washington claiming the victory. Interesting note about the Bullets: they remain the team with the fewest wins to win the Finals with a record of 44-38. 
+
+
+
+[Source](https://en.m.wikipedia.org/wiki/List_of_NBA_champions)",analysis,
+"Of the ~5000 players who have had 700+ career games, only one player has gone their entire career playing without an All Star, All NBA, or All Defensive players in the same season: Nikola Jokic at 839 career games Trae Young was the next closest active streak at 483 games played, with Dyson Daniels breaking it with his selection this year. No current player comes close",analysis,
+"Best players in the Thunder-Nuggets series with ESPN's new ""net points"" stat: 1-SGA (+33.7), 2-Jokic (+32.0), 3-Chet (+10.6). Worst players? 1-Westbrook (-37.6), 2-MPJ (-22.0), 3-Murray (-16.7) Fun new stat from Dean Oliver, one of the pioneers of basketball analytics. He explains the methodology here: https://www.espn.com/nba/story/_/id/44093220/introducing-net-points-latest-nba-metric-amazing-early-findings
+
+Here's the source of the data: https://espnanalytics.com/nba-daily-summary?date=20250518",analysis,
+"Russel Westbrook against the Thunder: 9/3/2 on 35/22/70 shooting splits | -27 netRTG and a team WORSE -92 +/- over the series a lot of people like to say he on a vet min and what not in argument to him not playing well but regarless of if he was making max or min, he was a net negative by a fucking lot.
+
+The takes on here after he had the his best shooting series after the clippers were heavy overactions.",analysis,
+"3/5 of the Knicks starters in their main full strength starting lineup from last year left in the offseason, however all five players are in the Conference Finals this year Source: https://www.espn.com/nba/team/schedule/_/name/ny/season/2024/seasontype/2
+
+The starting five was as follows:
+
+Brunson (ECF with the Knicks)
+DDV (WCF with the Wolves)
+OG (ECF with the Knicks)
+Randle (WCF with the Wolves)
+IHart (WCF with OKC)
+
+Pretty cool fact and it shows how these guys are all contributors to great teams this season, with all of them except DDV being key contributors as starters.",analysis,
+"Commercials (and using replay challenges and fouls/timeouts to slam more of them into the broadcast) have gone too far. Everyone has noticed that the amount of commercial breaks, and their length, has gone way up. It might be a reaction to lower ratings, but it's gone too far.
+
+Between first and third quarters: commercial break, quick check-in, ANOTHER commercial break
+
+Replay challenges: this is egregious, since the NBA is already sending refs to the monitor more often to put cameras on their Emirates patches. Each one of these is one, sometimes TWO commercial breaks.
+
+Flagrant reviews: see above, each one is more $$$ for the NBA from Emirates and from selling commercials.
+
+Fouls: I've noticed players ""drawing fouls"" right before the scheduled TV timeout, to ensure an extra commercial break without a coach calling timeout. Westbrook did this in Game 6.
+
+ESPN halftime is of course an abomination, but it's always been like that and I tune out during that time anyway. I'm more concerned with the constant breaks in gameplay.
+
+Are fans just gonna let the NBA become the NFL?",analysis,
+"SGA and Jdub finish the series with more assists indivudally and less turnovers combined than Jokic SGA: 46 assists and 14 turnovers.    
+Jdub: 42 assists and 10 turnovers.          
+Jokic: 41 assists and 30 turnovers.",analysis,
+"Michael porter jr vs the thunder: 7/5/1 on 42% TS Should the nuggets try and move on from MPJ? 
+
+I know he was injured but outside of shooting he really doesn’t offer much 
+
+7.4 points
+
+5.3 rebounds
+
+0.6 assists 
+
+30 minutes per game 
+
+33% FG
+
+42% TS",analysis,
+"NBA has to get their shit straight with what upgrades to Flagrant Variation in refereeing on a game by game basis is fine. But when it comes to reviews, there is no room for error, and consistency is required. 
+
+Part of the reason why there isn’t consistency is because the rules are pretty cloudy. It needs to get straightened out.
+
+For the OKC DEN series, in G6 Jdub elbowed Murray in the head, it was reviewed and determined to be a common foul. Today in G7 AG elbowed SGA in the head, and it was upgraded to Flagrant. Very similar plays, the defender’s both entered the other guys space and got hit on pull throughs.
+
+I don’t have a problem with it being a flagrant or not, but these two plays can’t result in different calls following a review. It has to go one way or the other. 
+
+Links below",analysis,
+MPJ after the ASB: 16.5/8.0/2.1 on 46.3/34.6/82.8. MPJ in playoffs: 9.1/5.5/0.6 on 39.2/34.3/71.4 A huge downswing from his pre ASB stats of 19/6.5/2.2 on 52.3/41.7/74.3. MPJ was a huge talking point for the trade deadline for the Nuggets before the ASB and no trade transpired. Did Booth make a huge mistake not sending MPJ away when he could have?,analysis,
+"Nuggets Starters Dominant Playoff Run Net Rating: +11 (2nd best lineup min 150min)
+ORTG: 119 
+DRTG: 108
+282 minutes (most out of any playoff lineup out of necessity)
+
+So if they were so elite why did they end up in two 7 game series and ultimately losing? Well its because they basically got destroyed anytime that any healthy starter was out. 
+
+Jokic off -24
+Braun off -25
+Gordon off -26
+Murray off -54 (big reason why he led the league in playoff minutes per game and in total minutes they were getting obliterated when he was off) 
+
+Every game it was the same script the starters start off well, the first subs come in and they start losing, the starters try to close the game while not gassing out. Today was a great example of this once again happening when the Nuggets were up 11 until Russell Westbrook checked in following Peyton Watson shortly after and the Thunder immediately cut it to 5.
+
+Hopefully this kills the Jokic superman +/- narrative since Jokic had a -24 net rating when he played without Jamal Murray. This is going to be the 2nd out of the last 3 playoff runs that Jokic is a negative when he plays without Murray.(-11 in 22/23) This doesn’t mean that Jokic is dependent on Jamal but basketball is a team game and every player plays a part. The whole 1 player carrying concept has always been asinine. Jokic and Murray together without Gordon were a -19  so 2 players carrying isn’t possible either.
+
+Depth matters and like we just saw for the Nuggets 5 players isn’t enough to win a championship.",analysis,
+"How to win in the playoffs - Guards who play with energy - OKC has 3 guards with more than 0.5 Steals per 36 and over 3 fouls per game - Dort, Caruso and Wallace. 11 Teams had at least one guard - all 8 made the 2nd round. NBA Playoffs is all about defense this year. Especially these hustle and energy guards who can crash the boards, play aggressive defensive that is hands-on and not worry about fouling, and as a plus, rebound and get offensive rebounds.
+
+From [NBA.com](https://www.nba.com/stats/players/traditional?CF=MIN*G*100:STL*G*0.9:PF*G*3&Height=LT%206-7&PerMode=Per36&PlayerPosition=G&dir=A&sort=TEAM_ABBREVIATION) for players with MP > 100, 0.5 steals per game, 3 fouls per game.
+
+https://preview.redd.it/wqakgn51mm1f1.png?width=223&format=png&auto=webp&s=655d4a2a11c33ea3b14e7921b94dfb96a00ad31f
+
+The teams that are not in this list - LA Lakers, Houston Rockets, Bucks, Magic and Heat.
+
+Who can forget seeing Alex Caruso body-up 3-Time MVP Nikola Jokic with so much success?
+
+These guards are so valuable. They need to be able to play with full intensity and not worry about fouling.
+
+The more guards you have, the higher chance of making it past the 1st round. 
+
+If I was an NBA GM, I would try to acquire these guards onto your team to build a championship contending roster.
+
+The proof is there. Guards who are willing to play aggressive defense, able to take good fouls, get deflections steals and rebounds, they are going to take you far into the playoffs.
+
+Congrats to OKC with 3 of these players.
+
+Personal Fouls is extremely important. The Refs adapt to the physicality of the game. If you are playing super aggressive defense, the refs will start to not make as many calls since the bar goes up on what is considered a foul.
+
+The winner of Indiana and Knicks will be Mathurin vs. Josh Hart. Whoever wins this matchup will win the series.",analysis,
+"2011-25 will have 11 unique champions in 15 years. The prior 15 years (1996-2010) only had 6 11: Mavericks 
+
+12, 13: Heat 
+
+14: Spurs 
+
+15, 17, 18, 22: Warriors 
+
+16: Cavaliers 
+
+19: Raptors 
+
+20: Lakers 
+
+21: Bucks 
+
+23: Nuggets 
+
+24: Celtics 
+
+25: Knicks/Thunder/Pacers/Wolves
+
+
+
+96, 97, 98: Bulls 
+
+99, 03, 05, 07: Spurs 
+
+00, 01, 02, 09, 10: Lakers 
+
+04: Pistons 
+
+06: Heat 
+
+08: Celtics",analysis,
+"Max Kellerman on Lebron: ""It's called selling out. It's very easy to take a stand when there is low to no cost. When there is a real price to pay, then who will stand up? Mohammad Ali did. Not Lebron James""",hot_take,
+[Scipioni] NBA legend Charles Barkley: ‘The only people who are not vaccinated are just a--holes’,hot_take,
+"Charles Barkley: ""Can’t be calling yourself Playoff P and losing all the time... they don't call me Championship Chuck""",hot_take,
+"Chuck on Ja Morant: ""You're not a thug. You're not a criminal. You're not a crook. You're making $200 million a year to dribble a stupid basketball. You hit the lottery! You have to look in the mirror and say 'You know what? Maybe I'm the problem.""",hot_take,
+"Charles Barkley: ""I don't like the fan's vote. What happened last time when we let them make a big decision? White House.""",hot_take,
+[The Onion] Knicks confident they have the cap space to ruin 2 or 3 promising careers https://sports.theonion.com/knicks-confident-they-have-the-cap-space-to-ruin-2-or-3-1832729578,hot_take,
+"Isaiah Thomas likes tweet: ""Boston dumped Isaiah Thomas after he ruined his hip carrying the Celtics in the Playoffs day's after his sister died. Read that sentence again. Kobe ripped his Achilles off the bone and the Lakers gave him 50 million dollars. Some companies take care of their stars."" Isaiah Thomas likes tweet: 
+
+&gt; ""Boston dumped Isaiah Thomas after he ruined his hip carrying the Celtics in the Playoffs day's after his sister died. Read that sentence again. Kobe ripped his Achilles off the bone and the Lakers gave him 50 million dollars. Some companies take care of their stars.""
+
+
+[Source](https://pbs.twimg.com/media/Dyb7udYWsAEtUVK.jpg)",hot_take,
+"Why LeBron would sign with every NBA team **Atlanta Hawks**
+
+LeBron is secretly a huge Twister fan. He will join the Hawks so he can film Twister 2 with their owner’s wife on their off days.
+
+**Boston Celtics**
+
+LeBron misses Kyrie. He wants to play basketball with his friend and that means playing for the Celtics.
+
+OR
+
+LeBron wants to troll Kyrie. He will go to Boston management and ask them to trade Kyrie back to Cleveland if they want him to join. Danny Ainge will agree because he has no heart.
+
+**Brooklyn Nets**
+
+LeBron loves NY. He will go to New York to sign with the Knicks to play in historic Madison Square Garden. However, during the drive to the stadium, his driver makes a wrong turn and they end up in Brooklyn. LeBron realizes the mistake, but shrugs his shoulders and signs with the Nets instead, because he will have the same results with either the Knicks or Nets.
+
+
+**Charlotte Hornets**
+
+LeBron wants to prove he’s better than Michael Jordan. He will sign with the Hornets to taunt MJ directly. He will win the Finals in 2019 with the Hornets and won’t let MJ touch the trophy. After the season, LeBron will buy out MJ’s shares and he will become majority owner. He will then trade himself to a better team because Dwight is too annoying and nobody will agree to LeBron’s trade proposals involving Dwight.
+
+**Chicago Bulls**
+
+LeBron wants to prove he’s better than Michael Jordan. He will sign with the Bulls so he can win 7 championships to pass what MJ did.
+
+
+**Cleveland Cavaliers**
+
+LeBron loves Cleveland as much as he hates moving. LeBron will re-sign with the Cavs, because it’s more convenient than moving to a different city.
+
+**Dallas Mavericks**
+
+LeBron is still haunted by the 2011 Finals. He will go to Dallas to learn from the true GOAT Dirk Nowitzki. There, LeBron will lead the Mavs all the way to the number 1 seed in the West, only to lose to the Warriors in the first round after KD leaves for India to re-join his snek charmer friend.
+
+**Denver Nuggets**
+
+LeBron loves chicken nuggets. He will sign with Denver, only to be disappointed. He then will retire and start his own chicken nugget company.
+
+**Detroit Pistons**
+
+LeBron will become the new Pistons President of Basketball Operations. His first act in his new role will be to sign himself as the head coach/starting SF. His second transaction will be to trade Blake Griffin to the Cavs for the 8th pick in the draft and salary filler, because LeBron will blackmail Dan Gilbert into doing it.
+
+**Golden State Warriors**
+
+LeBron wants all the ringz. He will sign with the Warriors for the veteran minimum so he can win not 1, not 2, not 3, not 4, not 5, not 6, not 7, not 8, not 9, but 10 championships.
+
+**Houston Rockets**
+
+LeBron loves space. He will sign with the Rockets so he can go to NASA and fly an actual rocket into space to find better competition on other planets. Mike Dan Tony will be confused why LeBron doesn’t show up to their games. Mike, he’s in space, deal with it.
+
+**Indiana Pacers**
+
+LeBron loves pace. He will sign with the Pacers so he can out-pace the other NBA players and win a championship. He will also become best friends with Lance Stephenson and the two will call out plays to each other by blowing in each other’s rear, I mean ear.
+
+**LA Clippers**
+
+LeBron wants to live in Hollywood, but doesn’t want to be under the shadow of Laker greats. If he can just lead the Clippers to the conference finals, they would rename their franchise LeBron’s Clippers.
+
+**LA Lakers**
+
+LeBron wants to live in Hollywood, but doesn’t want to be under the shadow of Clipper goods. He also wants to learn from the great Lavar Ball on how to play basketball as good as him.
+
+**Memphis Grizzlies**
+
+LeBron will not sign with the Memphis Grizzlies.
+
+**Miami Heat**
+
+LeBron will go back to Miami because he left his white headband there and wants it back.
+
+**Milwaukee Bucks**
+
+LeBron loves freaks. He will join the Greek Freak and sign with the Bucks. Then they will sign Rick James to preform every halftime so he can sing LeBron’s favorite song “Super Freak”
+
+**Minnesota Timberwolves**
+
+LeBron wants to learn from former MVP Derrick Rose. He also wants to torture his body and allow Coach Thibs to play him all 48 minutes for all 82 games.
+
+**New Orleans Pelicans**
+
+LeBron loves smoothies. He will join the Brow and sign with the Pelicans, so he can get unlimited smoothies at the Smoothie King Center.
+
+**New York Knicks**
+
+LeBron loves NY. He will go to New York to sign with the Knicks to play in historic Madison Square Garden. During the drive to the stadium, his driver makes the correct turn and they end up in MSG. LeBron realizes this and signs with the Knicks.
+
+**OKC Thunder**
+
+LeBron will sign with the Thunder so he can play with Russell Westbrook for one season, then leave after that and become an even better player.
+
+**Orlando Magic**
+
+LeBron will take his talents to Central Florida. He will sign with the Magic and lead them to another Finals lost.
+
+**Philadelphia 76ers**
+
+LeBron will sign with the 76ers because he trusts the process. LeBron will single handedly play bad for 3 seasons and tank so that the 76ers will get more draft picks to add to their squad. Then by age 37, LeBron will have what he needs to win another Eastern Conference Finals.
+
+**Phoenix Suns**
+
+LeBron loves hot-related teams. He will sign with the Suns and win 2 championships to prove to Pat Riley that he isn’t so special with his so called “Heat” for the “Suns” are the hottest thing in the universe.
+
+**Portland Trail Blazers**
+
+LeBron loves Nike. He will sign with the Blazers so that he can spend his off days at Nike headquarters creating new shoes.
+
+**Sacramento Kings**
+
+LeBron is the King. He will sign with the Kings, because that’s where he belongs.
+
+**San Antonio Spurs**
+
+LeBron loves Coach Pop. He will sign with the Spurs to learn from him, only to find out Coach Pop actually has no idea what he’s doing and is just really lucky. LeBron will use that luck to convince Kawhy? To stay and they will win a championship every other year in 2019, 2021, and 2023.
+
+**Toronto Raptors**
+
+LeBron will sign with the Raptors just to check up on them and make sure they are ok.
+
+**Utah Jazz**
+
+LeBron loves jazz. He will sign with Utah only to find out they don’t actually have jazz. He will then force a trade to New Orleans to be close to real jazz and because he remembered that he loves smoothies.
+
+**Washington Wizards**
+
+LeBron loves politics. He will sign with the Wizards so he can play basketball and also become the next president of the United States in 2020.
+
+
+
+**EDIT**
+
+Some of you have been asking for this, so here you go...
+
+**Seattle Supersonics**
+
+LeBron won't sign with this team because it doesn't exist.",hot_take,
+"All Star Weekend Idea: Coaches vs Refs basketball game that is officiated by Draymond Green, Demarcus Cousins and James Harden. I'd watch the fuck out of that event. Most coaches are former NBA players, but don't sleep on the refs. They have decent stamina as they run 48 mins per game and have played some level of basketball. It would be hilarious seeing the refs complain to the refs.
+
+Who do you think would win? Would you watch it?",hot_take,
+"[Bishop] Laura Ingraham says LeBron James should ""shut up and dribble"" and leave political comments to people who didn't leave high school a year early. &amp;nbsp;
+
+[**Laura Ingraham of Fox News says LeBron James and Kevin Durant should just ""shut up and dribble""**](https://streamable.com/tdw2q)
+
+---
+
+**Transcript:**
+
+&gt;**I'm numb to this commentary, like! Must they run their mouths like that? Unfortunately, a lot of kids and some adults take these ignorant comments seriously. Look, there might be a cautionary lesson in LeBron for kids. This is what happens when you attempt to leave high school a year early to join the NBA. And it's always unwise to seek political advice from someone who gets paid a hundred million dollars a year to bounce a ball. Oh and LeBron and Kevin? You're great players but no one voted for you. Millions elected Trump to be their coach. So keep the political commentary to yourself, or as someone once said, ""shut up and dribble"".**
+
+**[Bonus](https://streamable.com/7syqn) (she continued after returning from break):**
+
+&gt;**I'm still trying to get over the fact that Kevin Durant said, ""I feel like our country is not *ran* by a great coach."" Does that mean I should go for a *ran* tomorrow morning before my radio show? Oh my goodness.**
+
+---
+
+**The original interview with LeBron James and Kevin Durant can be found [here.](https://streamable.com/94k92)** *- link provided by /u/CW*
+
+---
+
+[*Tweet referenced in the title of this post.*](https://twitter.com/bishopk0s/status/964348499931336704)
+
+&amp;nbsp;",hot_take,
+"SGA was better than Jokic this series That’s all. Come at me, Jokic meat-slingers. SGA with 30/6/7 while Jokic put up 3 absolute stinkers in a 7 game series. Props to AG for making it a competitive series, but the nuggies didn’t have the depth to beat this thunder team.",hot_take,
+"For the first time in history, there are 7 different champions in 7 NBA seasons. This is the most parity the NBA has ever experienced and is t even close. Don’t let anyone gaslight you into believing this era is trash when it is indeed the best and most competitive 
+
+NBA PARITY IS AT AN ALL TIME HIGH!",hot_take,
+"Down to the Final four. Who’s your pick? Thunder are the deserving favorites. Proved they could close out a champion even if Denver had 2 injured starters. 
+
+That being said my pick is the Wolves. I think ANT is the best player left in the playoffs and he will go on an insane run to win his first ring.",hot_take,
+"THE DENVER NUGGETS HAVE BEEN ELIMINATED FROM CHAMPIONSHIP CONTENTION The Nuggets ran out of gas in game 7 against the Thunder, ending a tumultuous season.  With a thin roster around Nikola Jokic, Jamal Murray, and Aaron Gordon and new leadership coming in the Front Office &amp; on the bench, Denver has a busy offseason ahead.  Fade 'em.",hot_take,
+"Good response from him, he messed up and apologized and encouraged people to use himself as an example. Really all you can ask for at this point.     
+     
+We should also publicly execute the man.",hot_take,
+See you all next year for the NBA Finals between the Eastern Lebrons and the Golden State Warriors,hot_take,
+"I feel like the Cavs are hungrier this year and LeBron has been playing at a superhuman level these entire playoffs. If his team can show up and collectively work together, I can see the Warriors winning in 5",hot_take,
+"Charles Barkley: “If you are gay or transgender, I love you. And if anybody gives you sh*t, you tell em Charles says ‘f**k you!’”",reaction,
+"Paul Pierce admits to shitting his pants in the NBA finals against the Lakers, and faking a knee injury to go to the bathroom [VIDEO]",reaction,
+"[Megathread] Kobe Bryant has passed away at age 41 As reported by TMZ, Kobe Bryant has passed away in a helicopter crash earlier this afternoon. We will be updating this thread as more information becomes available.
+
+This is also a reminder that this situation is still fluid and we will remove anything that cannot be directly confirmed at this time.
+
+[Initial TMZ report](https://www.tmz.com/2020/01/26/kobe-bryant-killed-dead-helicopter-crash-in-calabasas/)
+
+[ABC in LA reporting](https://twitter.com/dougespn/status/1221517925502332939?s=21)
+
+[Woj reporting confirmation]
+(https://twitter.com/wojespn/status/1221521133608079368?s=19)
+
+3:35 [Daughter confirms Rick Fox was NOT on board](https://twitter.com/CourtneyFallon_/status/1221531721688068096?s=19)
+
+3:39 [[Mannix] The NBA is still discussing how to handle its slate of games today, per sources.](https://twitter.com/SIChrisMannix/status/1221532167869796352?s=19)
+
+3:41 [TMZ reporting in the main article that one of Kobe's daughter WAS on board](https://www.tmz.com/2020/01/26/kobe-bryant-killed-dead-helicopter-crash-in-calabasas/)
+
+3:44 [As of this moment, games will be played and the Rockets and Nuggets have tipped off. Game Thread linked here](https://old.reddit.com/r/nba/comments/eubf3u/game_thread_houston_rockets_2816_denver_nuggets/)
+
+3:45 [Moment of silence at the Pepsi Center](https://streamable.com/0o268)
+
+3:57 [[Wojnarowski] Sources: Kobe Bryant was on his way to a travel basketball game with his daughter Gianna when the helicopter crashed. Those aboard the helicopter also included another player and parent.](https://twitter.com/wojespn/status/1221537476893925376?s=21)
+
+4:01 [[Yahoo!] A memorial for Kobe Bryant has been started outside the Staples Center.]
+(https://twitter.com/YahooSports/status/1221536476451635201?s=19)
+
+4:17 [[Burke] Spurs and Raptors run out the shot-clock in the first possession of their game](https://twitter.com/bubbaprog/status/1221541799975628801)
+
+4:19 [[LA County Sheriffs] Press Conference scheduled for 2pm PST] (https://twitter.com/LASDHQ/status/1221530506774188035)
+
+4:22 [[Charania] The NBA has sent email to its employees confirming the tragic deaths of Kobe Bryant and his daughter Gianna, @TheAthletic @Stadium has been told.](https://twitter.com/ShamsCharania/status/1221542821225730054)
+
+4:32 [Neymar tribute after scoring a goal](https://streamja.com/JzEX)
+
+4:44 [[Lopez] Looks like every player on the Pelicans roster will wear a pair of Kobe’s during the national anthem as a tribute.] (https://twitter.com/_Andrew_Lopez/status/1221547828008439808?s=19)
+
+4:50 [[Dawson] Kobe chant breaks out outside of the Staples Arena] (https://twitter.com/BDawsonWrites/status/1221550499960279047?s=19)
+
+5:27 [[Shaq] There’s no words to express the pain Im going through with this tragedy of loosing my neice Gigi &amp; my brother 
+@kobebryant] (https://twitter.com/SHAQ/status/1221549914766954496?s=20)
+
+5:31 [Press conference about to begin] (https://ktla.com/2020/01/26/kobe-bryant-dies-in-calabasas-area-helicopter-crash-that-left-no-survivors-variety/)
+
+5:32 [Other crash victims identified as Orange Coast College baseball coach John Altobelli and his daughter](https://www.ocregister.com/2020/01/26/orange-coast-college-baseball-coach-john-altobelli-dies-in-helicopter-crash-with-kobe-bryant)
+
+5:39 [Per LAFD press conference: There were nine people on board](https://www.clickondetroit.com/news/local/2020/01/26/watch-la-fire-officials-hold-press-conference-on-helicopter-crash/)
+
+5:41 [[Magic] My friend, a legend, husband, father, son, brother, Oscar winner and greatest Laker of all-time is gone] (https://twitter.com/MagicJohnson/status/1221560645323124736)
+
+8:05 [[USA Today] Altobelli's wife and  daughter were also inside the helicopter] (https://amp.usatoday.com/amp/4583873002)
+
+[Kobe Memorial Thead](https://www.reddit.com/r/nba/comments/eumvl1/in_memoriam_kobe_bryant_19782020)",reaction,
+"Journalist gets quickly shut down when she asked James Harden, Russell Westbrook if they would refrain from speaking out on politics/social justice after China debacle",reaction,
+"Shaq: ""I'm 47 years old. Lost two grandmothers. Lost a Sarge. Lost my sister. And now, I lost a little brother.""",reaction,
+"[Jaylen Brown] “In one America, you get killed by sleeping in your car, selling cigarettes or playing in your backyard. In another America, you get to storm the Capitol, and no tear gas, no massive arrests, none of that.”",reaction,
+"[Charania] Dallas Mavericks owner Mark Cuban: ""Our organization has decided that the number 24 will never again be worn by a Dallas Maverick.”",reaction,
+Giannis orders 50 chicken nuggets on IG live and tells the Chik Fil A girl that she's on live with 150k people watching,reaction,
+"[BR] Adam Silver on Daryl Morey: ""We were being asked to fire him by the Chinese government. … We said there’s no chance that’s happening. There’s no chance we’ll even discipline him."" (via @TIME)",reaction,
+"Adrian Wojnarowski Allegedly Sends ‘Fuck You’ Email To Senator Who Suggested Pro Cop, Military NBA Jerseys",reaction,
+"Doc Rivers: “I will say it, because I don’t think a lot of people want to. Can you imagine today, if those were all black people storming the Capitol, and what would have happened? That, to me, is a picture that’s worth a thousand words for all of us to see.” Tim Bontemps NBA writer for ESPN
+
+Doc Rivers on today’s events: “I will say it, because I don’t think a lot of people want to. Can you imagine today, if those were all black people storming the Capitol, and what would have happened? That, to me, is a picture that’s worth a thousand words for all of us to see.”
+Image
+
+https://twitter.com/TimBontemps/status/1346945956936343554",reaction,
+[Charania] NBA legend Bill Russell has passed away peacefully at the age of 88. RIP.,reaction,
+"Now that the bubble is officially a success, let’s take a moment to appreciate Adam Silver and everyone who made this incredible achievement possible. To be honest, I was one of the doubters, but boy was I wrong. And I’m glad I was wrong. Watching the NFL right now and what’s happening, we shouldn’t take this for granted. Incredible job by Adam Silver, his team, the players and everyone else involved. I don’t know what I would’ve done without basketball. Thank you, NBA",reaction,
+"Shaq tells a story about telling Kobe there's no I in team, and Kobe said ""I know, but here's an M and an E in that motherf*cker""",reaction,
+"This needs to be talked about, Masai is an ambassador for basketball and human rights. The police assaulted him, slandered his name and then tried to sue him for damages.",reaction,
+"THE LOS ANGELES LAKERS HAVE BEEN ELIMINATED FROM CHAMPIONSHIP CONTENTION By virtue of losing Game 6 of their Western Conference First Round series against the Phoenix Suns, the defending champion Los Angeles Lakers have lost the series, 4 games to 2. This means that they have officially been eliminated from Championship Contention. 
+
+[Source](https://www.espn.com/nba/game/_/gameId/401327905)",reaction,
+[Highlight] The Raptors and Spurs run out the 24 second shot-clock on their first possession,reaction,
+Derrick Rose is reduced to tears after his teammates swarm him. He had the game-saving block as well.,reaction,
+[Charania] New Orleans' Zion Williamson says he is pledging to cover the salaries for all of the Pelicans arena staff workers for the next 30 days.,reaction,
+"THE BROOKLYN NETS HAVE BEEN ELIMINATED FROM CHAMPIONSHIP CONTENTION The Boston Celtics complete the 4-0 sweep of the Brooklyn Nets 116-112 and the Brooklyn Nets have been eliminated from the playoffs.
+
+The question of Ben Simmons' return moves to the start of the '22-23 season
+
+FADED",reaction,
+"[Wojnarowski] The Pelicans have agreed to a deal to trade Anthony Davis to the Lakers for Lonzo Ball, Brandon Ingram, Josh Hart, and three first-round picks – including the No. 4 overall in 2019 Draft, league sources tell ESPN.",reaction,
+"[Post Game Thread] The Milwaukee Bucks defeat the Phoenix Suns, 105-98, to win the 2021 NBA Finals in 6 games, behind Giannis Antetokounmpo's legendary performance - 50pts/14reb/2ast on 16/25 FG, 17/19 FT 
+||		
+|:-:|		
+|[](/PHX) **98 -  105** [](/MIL)|
+|**Box Scores: [NBA](http://www.nba.com/games/20210720/PHXMIL#/boxscore) &amp; [Yahoo](http://sports.yahoo.com/nba/phoenix-suns-milwaukee-bucks-2021072015)**|
+
+
+||
+|:-:|											
+|&amp;nbsp;|		
+|**GAME SUMMARY**|
+|**Location:** Fiserv Forum(17397), **Clock:** |
+|**Officials:** Tony Brothers, Scott Foster and Eric Lewis|
+
+|**Team**|**Q1**|**Q2**|**Q3**|**Q4**|**Total**|
+|:---|:--|:--|:--|:--|:--|
+|Phoenix Suns|16|31|30|21|98|
+|Milwaukee Bucks|29|13|35|28|105|
+      
+||		
+|:-:|		
+|&amp;nbsp;|		
+|**TEAM STATS**|
+
+|**Team**|**PTS**|**FG**|**FG%**|**3P**|**3P%**|**FT**|**FT%**|**OREB**|**TREB**|**AST**|**PF**|**STL**|**TO**|**BLK**|
+|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|
+|Phoenix Suns|98|38-86|44.2%|6-25|24.0%|16-19|84.2%|6|37|14|21|11|14|4|
+|Milwaukee Bucks|105|37-82|45.1%|6-27|22.2%|25-29|86.2%|11|53|20|17|10|18|6|
+
+||
+|:-:|
+|&amp;nbsp;|
+|**PLAYER STATS**|
+
+||||||||||||||||
+|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|
+**[](/PHX) Phoenix Suns**|**MIN**|**PTS**|**FGM-A**|**3PM-A**|**FTM-A**|**ORB**|**DRB**|**REB**|**AST**|**STL**|**BLK**|**TO**|**PF**|**+/-**|
+|Mikal Bridges^SF|39:28|7|3-7|0-1|1-2|1|5|6|2|2|0|0|4|-18|
+|Jae Crowder^PF|40:33|15|4-11|2-9|5-5|2|11|13|0|4|1|2|3|+4|
+|Deandre Ayton^C|36:11|12|4-12|0-0|4-5|1|5|6|1|2|2|2|5|-7|
+|Devin Booker^SG|46:15|19|8-22|0-7|3-3|0|3|3|5|0|0|6|4|-15|
+|Chris Paul^PG|39:13|26|11-19|1-2|3-4|1|1|2|5|1|0|3|5|-8|
+|Frank Kaminsky|10:59|6|3-4|0-0|0-0|1|1|2|1|1|0|0|0|0|
+|Cameron Johnson|16:04|3|1-5|1-4|0-0|0|3|3|0|1|1|0|0|0|
+|Cameron Payne|10:26|10|4-6|2-2|0-0|0|2|2|0|0|0|1|0|+9|
+|Torrey Craig|0:48|0|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+|Ty-Shon Alexander|0:00|0|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+|Jevon Carter|0:00|0|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+|Langston Galloway|0:00|0|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+|E'Twaun Moore|0:00|0|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+|Abdel Nader|0:00|0|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+|Jalen Smith|0:00|0|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+**[](/MIL) Milwaukee Bucks**|**MIN**|**PTS**|**FGM-A**|**3PM-A**|**FTM-A**|**ORB**|**DRB**|**REB**|**AST**|**STL**|**BLK**|**TO**|**PF**|**+/-**|
+|P.J. Tucker^SF|36:27|0|0-1|0-1|0-0|2|4|6|1|1|0|1|2|+13|
+|Giannis Antetokounmpo^PF|42:26|50|16-25|1-3|17-19|4|10|14|2|0|5|6|2|+10|
+|Brook Lopez^C|26:45|10|5-10|0-3|0-0|2|6|8|0|1|0|1|2|+9|
+|Khris Middleton^SG|40:38|17|6-13|1-4|4-4|0|5|5|5|4|0|5|3|+11|
+|Jrue Holiday^PG|46:17|12|4-19|2-7|2-2|1|8|9|11|4|0|3|1|+12|
+|Bobby Portis|22:47|16|6-10|2-5|2-2|0|3|3|0|0|1|0|5|+6|
+|Pat Connaughton|22:55|0|0-4|0-4|0-2|2|6|8|1|0|0|2|2|-21|
+|Jeff Teague|1:43|0|0-0|0-0|0-0|0|0|0|0|0|0|0|0|-5|
+|Elijah Bryant|0:00|0|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+|Mamadi Diakite|0:00|0|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+|Bryn Forbes|0:00|0|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+|Justin Jackson|0:00|0|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+|Sam Merrill|0:00|0|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+|Jordan Nwora|0:00|0|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+|Axel Toupane|0:00|0|0-0|0-0|0-0|0|0|0|0|0|0|0|0|0|
+
+      
+||
+|:-:|
+|^[rnbapgtgenerator](https://f1uk3r.github.io/rnbapgtgenerator/) ^by ^/u/f1uk3r|",reaction,
+"After a shoot with Sports Illustrated, Steph Curry makes 5 full court shots in a row",reaction,
+"[Wojnarowski] The Oklahoma City Thunder have agreed to trade Russell Westbrook to the Houston Rockets for Chris Paul, first-round picks in 2024 and 2026, pick swaps in 2021 and 2025, league sources tell ESPN.",reaction,
+"[Wojnarowski] Jazz star Donovan Mitchell has tested positive for the coronavirus, league sources tell ESPN. Jazz players privately say that Rudy Gobert had been careless in the locker room touching other players and their belongings. Now a Jazz teammate has tested positive.",reaction,
+Fake Klay Thompson (@BigDawsTv) banned for life from Chase Center after walking past five layers of Warriors security guards and shooting around on the court for 10 minutes before getting caught.,reaction,
+"[Wojnarowski] An emotional Karl-Anthony Towns revealing that his mother, diagnosed with the coronavirus, is in a coma and connected to a ventilator. He’s clearly trying to further alert the public to the seriousness of the pandemic.",reaction,
+"Lebron’s cutscene in NBA 2k20 is just plain sad after recent events https://streamable.com/jxkz0
+
+In the cutscene he talks about speaking up for those without a voice. 
+
+“Those people, those kids, they exist on every corner of the globe, and they’re all deserving of a chance”
+
+“I believe no one person is capable of turning the tide, but we all have an obligation”
+
+Like... dude
+
+Edit: Forgot to mention that Lebron’s production company Springhill Entertainment helped produce and write the story for 2k20 - these are his own words
+
+edit2: [Credit to Chris Smoove for the footage](https://www.youtube.com/watch?v=kpYB24wDYkE)",reaction,
+[Charania] Sources: The Lakers and Clippers have voted to boycott the NBA season. Most other teams voted to continue. LeBron James has exited the meeting.,reaction,
+"[Azarly] Doc Rivers - ""Sorry I don't have a lot to say. I have to go talk to a team before a game and tell them to play and I can't.""",reaction,
+"[Charania] Nike announces the company is suspending its relationship with Kyrie Irving, effective immediately, and will no longer launch his new Kyrie 8.",reaction,
+"[Charania] BREAKING: The Brooklyn Nets and Philadelphia 76ers are finalizing trade sending James Harden for Ben Simmons, Seth Curry and draft picks, sources tell @TheAthletic @Stadium.",reaction,
+[Highlight] Luka Doncic intentionally misses the FT and hits the miracle game tying shot with 1 second left,reaction,
+Body Cam footage was just released of the shoving match between the Alameda Co. sheriff and Masai Ujiri,reaction,
+[Charania] Spurs legend Tim Duncan has joined Gregg Popovich's coaching staff as an assistant coach.,reaction,
+[Highlight] Demar does it again! knocking down the tough contest corner triple to win at the buzzer,reaction,
+"Tim Hardaway apologizes for past anti-gay comments: ""I grew up in a church and that’s the way churches were. Don’t talk to them, don’t mess with them, leave them alone. It was so wrong of me and people have suffered. I had to grow up and really do some soul-searching. What I said was just hurtful.""",reaction,
+"[Charania] The Memphis Grizzlies have informed pending free agent Dillon Brooks that he will not be brought back under any circumstances, league sources say.",reaction,
+"[Wojnarowski] Hall of Fame guard Steve Nash has signed a four-year contract to become the next coach of the Brooklyn Nets, sources tell ESPN.",reaction,
+"Russell Westbrook is now the ALL-TIME NBA Leader in Career Triple Doubles Source: [https://www.basketball-reference.com/leaders/trp\_dbl\_career.html](https://www.basketball-reference.com/leaders/trp_dbl_career.html)
+
+Absolutely unreal by Russell Westbrook. He's come a long way from the backup point guard from UCLA that the Thunder took a chance. Say what you will about him, but the man plays his heart out every single game and is by all accounts an exceptional teammate.
+
+It's his **182nd career triple-double** to surpass Oscar Robertson's previous record of 181.",reaction,
+"Shaq addresses breach of the Capitol: “For all the people who sit back and think there is no White privilege, you saw it yesterday.”",reaction,
+"During his 15th and final All-Star Game, 37-year-old Shaq nutmegs a trash-talking Dwight Howard, runs past him and throws it down",reaction,
+"[Haynes] Free agent forward Kawhi Leonard will sign with the Los Angeles Clippers, league sources tell Yahoo Sports.",reaction,
+"[Fenno] BREAKING: California's state Senate unanimously passed a bill to allow college athletes to profit from their name, image and likeness. Gov. Gavin Newsom has 30 days to sign or veto the bill.",reaction,
+"[Katz] ESPN just announced it will air Kobe Bryant’s last game, the 60-point performance, tonight at 9pm ET.",reaction,
+With 4 minutes and 20 seconds left in the 4th quarter this was the score during the Warriors vs. Clippers summer league game :,reaction,
+"Charles Barkley Fires Back At ""Full Of Crap"" Reporters On TV Saying Steve Nash Was Hired Because Of ""White Privilege""",reaction,
+[Charania] San Antonio Spurs legend Manu Ginobili has retired from the NBA. Hall of Famer,reaction,
+"[Highlight] LeBron speaks before the Lakers tipoff on the passing of Kobe, GiGi and the 7 other lives lost in the tragic helicopter crash last Sunday",reaction,
+"[Spears] “I believe he was misinformed and not educated on the situation,” LeBron James said on the Morey tweet. LeBron added Morey’s tweet was dangerous. LeBron said he is uncertain about the future ramifications of the Morey tweet with the NBA and players.",reaction,
+"LeBron responds to Kobe's passing on Instagram &gt;I’m Not Ready but here I go. Man I sitting here trying to write something for this post but every time I try I begin crying again just thinking about you, niece Gigi and the friendship/bond/brotherhood we had! I literally just heard your voice Sunday morning before I left Philly to head back to LA. Didn’t think for one bit in a million years that would be the last conversation we’d have. WTF!! I’m heartbroken and devastated my brother!! 😢😢😢😢💔. Man I love you big bro. My heart goes to Vanessa and the kids. I promise you I’ll continue your legacy man! You mean so much to us all here especially #LakerNation💜💛 and it’s my responsibility to put this shit on my back and keep it going!! Please give me the strength from the heavens above and watch over me! I got US here! There’s so much more I want to say but just can’t right now because I can’t get through it! Until we meet again my brother!! #Mamba4Life❤️🙏🏾 #Gigi4Life❤️🙏🏾
+
+https://www.instagram.com/p/B72NUtWA0gS/",reaction,
+Do you guys think Zion Williamson looks like Toothless? [Toothless](https://i.pinimg.com/originals/84/a3/d9/84a3d9caec8c6f5cd19b320ff2835c2e.jpg) from How to Train Your Dragon,reaction,
+"[Bleacher Report] Kyrie has donated $323k and 250k meals throughout NY, 200k Beyond Burgers to Food Bank of NYC, 3k masks and food trucks to Standing Rock Sioux Tribe, producing Breonna Taylor documentary, and started $1.5m fund for WNBA players",reaction,
+"[Wojnarowski] David Stern — the Hall of Fame ex-NBA Commissioner — has died at 77 years old. He oversaw tremendous growth in his 30 years as commissioner, retiring in 2014. Stern had been hospitalized since a brain hemorrhage on Dec. 17.",reaction,
+A Lakers Fan Raised Almost $43k to Hand Out “Stand with Hong Kong” T-Shirts at the Season Opener,reaction,
+"Rudy Gobert shares a post about the detention and mistreatment of Uyghur Muslims in China on Instagram story. Adds: ""Wrong is wrong."" [Link to post](https://instagram.com/stories/rudygobert27/2410337061188253435?utm_source=ig_story_item_share&amp;igshid=1wjfsay5od5vm)
+
+Good for Rudy. This is not an issue that many people in the NBA have been speaking about, for obvious reasons. No idea what will come of it, but it took a fair amount of bravery from Gobert to post this. 
+
+I'm trying to refrain from making a joke about him ""defending"" the Uyghurs but it's fuckin hard guys",reaction,
+"[Wojnarowski] Houston has agreed to trade Russell Westbrook to Washington for John Wall and a first-round pick, sources tell ESPN.",reaction,
+[Charania] NBA commissioner Adam Silver says the All-Star Game MVP will now be the Kobe Bryant MVP award.,reaction,
+Bang Bros is about to bid $10 Million for the naming rights of the Miami Heat’s arena.,reaction,
+Wow the Warriors are really good now. Is Stephen Curry the best player in the NBA? [removed],reaction,
+"Russell Westbrook has achieved a double-triple-double, with 20 points, 20 rebounds and 21 assists Absolutely insane game from Russell Westbrook, who has been on fire since the first quarter, where he scored 10 assists and 7 rebounds.
+
+According to Royce Young, the only other 20-20-20 game in history was Wilt Chamberlain on Feb 2, 1968.",reaction,
+"THE LOS ANGELES LAKERS HAVE BEEN ELIMINATED FROM PLAYOFF CONTENTION With their loss tonight to the Nets, the Lakers are now officially eliminated from making the playoffs.
+
+
+-----
+
+
+This is the first time in 14 years that Lebron has missed the playoffs, and marks the end of his streak of 8 consecutive NBA Finals appearances.  
+
+
+-----
+
+
+Fade' em",reaction,
+"[Klein] Hawks are all-in on fan experience.. 1st NBA team to offer fan friendly concession prices: $1 Chips; $2 Candy, pretzel's, bottled water; $3 Fries, hot dogs, nachos $4 pizza, bottomless popcorn, bottomless soda; $5 beer",reaction,
+"Kareem Abdul-Jabbar is auctioning off his championship rings and MVP trophies for charity: ""When it comes to choosing between storing a championship ring or trophy in a room, or providing kids with an opportunity to change their lives, the choice is pretty simple. Sell it all.""",reaction,
+"[Highkin] Awful news from San Antonio: Spurs announce that Gregg Popovich's wife, Erin, passed away today.",reaction,
+"[Elijè] I was afraid to speak but today my life was threatened after I was sexually harassed, threatened and manipulated, by someone I respected, my ex boyfriend NBA player Dwight Howard, and his camp also “”catfished”” by his disrespectful ass PASTOR",reaction,
+Jeremy Lamb throws up the desperation heave from half-court and makes it at the buzzer to win the game!,reaction,
+My gf Asur spent 20hrs in two days doing these. Hope r/nba will like it!,reaction,
+[Charania] Free agent DeMarcus Cousins has agreed to a deal with the Golden State Warriors.,reaction,
+"[Wojnarowski] Kevin Durant is planning to sign with the Brooklyn Nets, league sources tell ESPN.",reaction,
+LeBron is not and has never been better than Jordan. End of discussion.,hot_take,synthetic
+Kobe was more clutch than anyone in NBA history and it's not even close.,hot_take,synthetic
+The Warriors dynasty is the most fraudulent championship run ever. KD ruined basketball.,hot_take,synthetic
+Luka Doncic is lazy and will never win a championship because of it.,hot_take,synthetic
+"Kyrie Irving is the most skilled player to ever play the game, full stop.",hot_take,synthetic
+The Celtics are the most overrated franchise in NBA history and their fans are insufferable.,hot_take,synthetic
+Westbrook was never a good basketball player. Just an empty stats guy.,hot_take,synthetic
+Nikola Jokic does not deserve a single MVP. The voters have lost their minds.,hot_take,synthetic
+The NBA is rigged for big market teams. There is zero doubt about this.,hot_take,synthetic
+Carmelo Anthony is a top 10 player all time and everyone is wrong about him.,hot_take,synthetic
+"Trae Young will never win anything meaningful. Too small, too selfish.",hot_take,synthetic
+The 2017 Warriors would destroy any team in NBA history and it would not be competitive.,hot_take,synthetic
+Anthony Davis is soft and will never be the best player on a championship team.,hot_take,synthetic
+Point guard is the most overvalued position in the modern NBA by a mile.,hot_take,synthetic
+Giannis only looks good because of how weak the Eastern Conference is.,hot_take,synthetic
+The three point revolution ruined basketball. The league is unwatchable now.,hot_take,synthetic
+Pat Riley is the most overrated coach and executive in NBA history.,hot_take,synthetic
+Zion Williamson does not care about basketball and never will.,hot_take,synthetic
+The Spurs dynasty only happened because they tanked and got lucky with Tim Duncan.,hot_take,synthetic
+Damian Lillard wasted his prime crying about wanting a trade instead of winning.,hot_take,synthetic
+Stephen Curry cannot be the GOAT because he cannot create off the dribble consistently.,hot_take,synthetic
+Load management is destroying the NBA. These guys are just not mentally tough.,hot_take,synthetic
+Kevin Durant has no loyalty and that disqualifies him from any GOAT conversation.,hot_take,synthetic
+Victor Wembanyama is going to be a bust. The hype is completely out of control.,hot_take,synthetic
+The Knicks will never win a championship as long as James Dolan owns the team.,hot_take,synthetic
+Chris Paul choked in every series that actually mattered. The stats do not lie.,hot_take,synthetic
+European players have made the NBA soft. The physicality of the 90s was better.,hot_take,synthetic
+James Harden quit on every single team he was ever on. Worst competitor in the league.,hot_take,synthetic
+The modern NBA player could not survive a week in the 1990s playoffs.,hot_take,synthetic
+Jayson Tatum is not a top 5 player and Celtics fans have completely lost the plot.,hot_take,synthetic
+Dwyane Wade only won because of LeBron and Shaq. His legacy is built on other people.,hot_take,synthetic
+The league office actively protects star players from foul calls and always has.,hot_take,synthetic
+"Russell Westbrook is the worst max contract player in NBA history, no competition.",hot_take,synthetic
+Scottie Pippen would have been nothing without Jordan and everyone knows it.,hot_take,synthetic
+The Nets superteam failure is the most embarrassing front office disaster ever.,hot_take,synthetic
+Refs in the NBA finals are absolutely deciding the outcomes of games on purpose.,hot_take,synthetic
+Devin Booker is good in the regular season but mentally weak when it counts.,hot_take,synthetic
+Jimmy Butler is the most overrated two-way player in the league right now.,hot_take,synthetic
+The Thunder were right to blow it up. Harden and Westbrook were never winning anything.,hot_take,synthetic
+Ben Simmons is the biggest bust in NBA draft history and nothing will change that.,hot_take,synthetic
+Kawhi Leonard only looks like a GOAT candidate because he plays 40 games a year.,hot_take,synthetic
+Paul George does not show up in big moments. It is a documented fact at this point.,hot_take,synthetic
+The Suns will never win a chip with that ownership and that culture. Never.,hot_take,synthetic
+College basketball is meaningless for predicting NBA success. Stop watching it.,hot_take,synthetic
+Shaquille O'Neal would average 45 points a game in today's NBA with no effort.,hot_take,synthetic
+The draft lottery should be abolished. It just rewards bad management.,hot_take,synthetic
+Ja Morant is going to flame out before he wins anything significant.,hot_take,synthetic
+Magic Johnson is the most overrated Laker of all time and the revisionism is insane.,hot_take,synthetic
+Charles Barkley was never a champion because he was never actually the best player.,hot_take,synthetic
+The Eastern Conference has been a joke for 15 years and nobody wants to admit it.,hot_take,synthetic
+Bradley Beal signed the worst contract in NBA history and he knew exactly what he was doing.,hot_take,synthetic
+The 1986 Celtics would beat this generation's best team in 5 games.,hot_take,synthetic
+Playoff seeding should be redone completely. The current format makes no sense.,hot_take,synthetic
